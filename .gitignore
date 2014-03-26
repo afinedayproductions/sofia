@@ -1,0 +1,4 @@
+# ignoring config & database params
+
+application/config/config.php
+application/config/database.php
