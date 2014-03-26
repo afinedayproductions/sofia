@@ -1,0 +1,15 @@
+/* TEAM */
+	Developer: Fabien MATHIS
+	Website: www.afinedayproductions.fr
+	Twitter: @afinedayproduct
+	From: Toulouse, France
+
+	Design: Fabien MATHIS
+	Website: www.afinedayproductions.fr
+	Twitter: @afinedayproduct
+	From: Toulouse, France
+
+/* SITE */
+	URL: www.afinedayproductions.fr
+	Standard: HTML5, CSS3, JavaScript
+	Software: SublimeText2, Photoshop, Illustrator, Filezilla
