@@ -9,6 +9,9 @@
 		<!-- META --> 
 		<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $charset; ?>" >
 
+		<!-- FAVICON -->
+		<link rel="icon" type="image/png" href="<?php echo img_url('panda/afineday-64x.png'); ?>">
+
 		<!-- CSS -->
 		<link rel="stylesheet" href="<?php echo css_url('style'); ?>">
 
