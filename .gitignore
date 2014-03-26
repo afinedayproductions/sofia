@@ -1,4 +1,7 @@
 # ignoring config & database params
 
-application/config/config.php
-application/config/database.php
+application/sofia/config/config.php
+application/sofia/config/database.php
+
+application/afinedoc/config/config.php
+application/afinedoc/config/database.phpp

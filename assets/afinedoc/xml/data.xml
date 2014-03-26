@@ -1,0 +1,2975 @@
+<?xml version= "1.0" encoding="UTF-8"?>
+
+<items>
+
+	<item search="a">
+		<description>
+### Syntax
+
+	<![CDATA[<a>]]>lorem ipsum<![CDATA[</a>]]>
+
+### Attributes
+
+#### download
+
+#### href
+
+#### title
+
+#### target
+
+		</description>
+		<name>a</name>
+		<note></note>
+		<resume>Defines a link or an anchor</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="addslashes">
+		<description>
+### Syntax
+
+	(string) $misc = addslashes( (string) $str )
+		</description>
+		<name>addslashes()</name>
+		<note></note>
+		<resume>Add a backslash before quotes, double-quotes and backslashes in string variables</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search=":after ::after">
+		<description></description>
+		<name>:after</name>
+		<note>**Alias:** `::after`</note>
+		<resume>Create a pseudo-element whom is the last child of the matched element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Pseudo-element</type>
+	</item>
+
+	<item search="angular.foreach angular foreach">
+		<description></description>
+		<name>angular.forEach()</name>
+		<note></note>
+		<resume>Executes a provided function once per array or object element</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="angular.module angular module">
+		<description></description>
+		<name>angular.module()</name>
+		<note></note>
+		<resume>Create, register and retrieve Angular modules</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="array">
+		<description>
+### Syntax
+
+	(array) $misc = (array) array ([ (mixed) $… ] );
+		</description>
+		<name>array()</name>
+		<note>*Alias:* `[]`</note>
+		<resume>Create a new array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="array_diff array diff">
+		<description>
+### Syntax
+
+	(array) $misc = array_diff ( (array) $array1 , (array) $array2 [, (array) $… ] );
+		</description>
+		<name>array_diff()</name>
+		<note></note>
+		<resume>Computes the difference between arrays</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="array.foreach array foreach">
+		<description></description>
+		<name>Array.forEach()</name>
+		<note></note>
+		<resume>Executes a provided function once per array element</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Method</type>
+	</item>
+
+	<item search="array.length array length">
+		<description></description>
+		<name>Array.length</name>
+		<note></note>
+		<resume>Return the number of elements of the array</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="array_pop array pop">
+		<description>
+### Syntax
+
+	(mixed) $misc = array_pop ( (array) $array );
+		</description>
+		<name>array_pop()</name>
+		<note></note>
+		<resume>Remove the last element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="array.pop array pop">
+		<description></description>
+		<name>Array.pop()</name>
+		<note></note>
+		<resume>Remove the last element of the array</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Method</type>
+	</item>
+
+	<item search="array_push array push">
+		<description>
+### Syntax
+
+	(int) $misc = array_push ( (array) $array , (mixed) $value1 [, (mixed) $… ] );
+		</description>
+		<name>array_push()</name>
+		<note></note>
+		<resume>Add one or more elements in the end of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="array.push array push">
+		<description></description>
+		<name>Array.push()</name>
+		<note></note>
+		<resume>Add one or more elements in the end of the array</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Method</type>
+	</item>
+
+	<item search="array_shift array shift">
+		<description>
+### Syntax
+
+	(mixed) $misc = array_shift ( (array) $array );
+		</description>
+		<name>array_shift()</name>
+		<note></note>
+		<resume>Remove the first element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="array.shift array shift">
+		<description></description>
+		<name>Array.shift()</name>
+		<note></note>
+		<resume>Remove the first element of the array</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Method</type>
+	</item>
+
+	<item search="array_slice array slice">
+		<description>
+### Syntax
+
+	(array) $misc = array_slice ( (array) $array , (int) $offset [, (int) $length = NULL [, (bool) $preserve_keys = false ]] );
+		</description>
+		<name>array_slice()</name>
+		<note></note>
+		<resume>Extract a slice of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="array.slice array slice">
+		<description></description>
+		<name>Array.slice()</name>
+		<note></note>
+		<resume>Extract a slice of the array</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Method</type>
+	</item>
+
+	<item search="array_unshift array unshift">
+		<description>
+### Syntax
+
+	(mixed) $misc = array_unshift ( (array) $array , (mixed) $value1 [, mixed $… ] );
+		</description>
+		<name>array_unshift()</name>
+		<note></note>
+		<resume>Add one or more elements in the beginning of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="array.unshift array unshift">
+		<description></description>
+		<name>Array.unshift()</name>
+		<note></note>
+		<resume>Add one or more elements in the begginning of the array</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Method</type>
+	</item>
+
+	<item search="arsort">
+		<description>
+### Syntax
+
+	(bool) $misc = arsort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
+		<name>arsort()</name>
+		<note></note>
+		<resume>Sort an array in reverse order and maintain key association</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="article">
+		<description>
+### Syntax
+
+	<![CDATA[<article>]]>lorem ipsum<![CDATA[</article>]]>
+		</description>
+		<name>article</name>
+		<note></note>
+		<resume>Defines an article</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="asort">
+		<description>
+### Syntax
+
+	(bool) $misc = asort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
+		<name>asort()</name>
+		<note></note>
+		<resume>Sort an array and maintain key association</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="aside">
+		<description>
+### Syntax
+
+	<![CDATA[<aside>]]>lorem ipsum<![CDATA[</aside>]]>
+		</description>
+		<name>aside</name>
+		<note></note>
+		<resume>Defines content aside from the page content</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="audio">
+		<description>
+### Syntax
+
+	<![CDATA[
+	<audio>
+		<source></source>
+	</audio>
+	]]>
+
+### Attributes
+
+#### autoplay
+
+#### controls
+
+#### loop
+
+#### muted
+
+#### preload
+
+#### src
+
+#### volume
+		</description>
+		<name>audio</name>
+		<note></note>
+		<resume>Defines sound content</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="background">
+		<description></description>
+		<name>background</name>
+		<note>**Shortcut for:** `background-color` — `background-image` — `background-position` — `background-repeat` and `background-attachment`</note>
+		<resume>Sets all background properties</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="background-attachment background attachment">
+		<description></description>
+		<name>background-attachment</name>
+		<note></note>
+		<resume>Specify if a `background-image` scrolls this the current element or is fixed within the wiewport</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="background-color background color">
+		<description></description>
+		<name>background-color</name>
+		<note></note>
+		<resume>Sets the background color of the current element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="background-image background image">
+		<description></description>
+		<name>background-image</name>
+		<note></note>
+		<resume>Sets the background image of the current element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="background-position background position">
+		<description></description>
+		<name>background-position</name>
+		<note></note>
+		<resume>Sets the background position in the current element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="background-repeat background repeat">
+		<description></description>
+		<name>background-repeat</name>
+		<note></note>
+		<resume>Specify if a `background-image` is repeated and how</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="base64_decode base64 decode">
+		<description>
+### Syntax
+
+	(string) $misc = base64_decode ( (string $data) [, (bool) $strict = false ] );
+		</description>
+		<name>base64_decode()</name>
+		<note></note>
+		<resume>Decode data encoded with MIME base64</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="base64_encode base64 encode">
+		<description>
+### Syntax			
+
+	(string) $misc = base64_encode ( (string $data) );
+		</description>
+		<name>base64_encode()</name>
+		<note></note>
+		<resume>Encode data with MIME base64</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="basename">
+		<description>
+### Syntax
+
+	(string) $misc = basename ( (string) $path [, (string) $suffix ] );
+		</description>
+		<name>basename()</name>
+		<note></note>
+		<resume>Returns the ending element of a path</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search=":before ::before">
+		<description></description>
+		<name>:before</name>
+		<note><strong>Alias:</strong> `::before`</note>
+		<resume>Create a pseudo-element whom is the first child of the matched element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Pseudo-element</type>
+	</item>
+
+	<item search="body">
+		<description>
+### Syntax
+
+	<![CDATA[<body>]]>
+		lorem ipsum
+	<![CDATA[</body>]]>
+		</description>
+		<name>body</name>
+		<note></note>
+		<resume>Defines the document's body</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="border">
+		<description></description>
+		<name>border</name>
+		<note><strong>Shortcut for:</strong> `border-bottom` — `border-left` — `border-right` and `border-top`</note>
+		<resume>Sets the border to each side of the box</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="border-bottom border bottom">
+		<description></description>
+		<name>border-bottom</name>
+		<note><strong>Shortcut for:</strong> `border-bottom-color` — `border-bottom-style` and `border-bottom-width`</note>
+		<resume>Sets the bottom border of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="border-bottom-left-radius border bottom left radius">
+		<description></description>
+		<name>border-bottom-left-radius</name>
+		<note></note>
+		<resume>Sets the radius to the bottom left corner of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="border-bottom-right-radius border bottom right radius">
+		<description></description>
+		<name>border-bottom-right-radius</name>
+		<note></note>
+		<resume>Sets the radius to bottom right corner of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="border-left border left">
+		<description></description>
+		<name>border-left</name>
+		<note><strong>Shortcut for:</strong> `border-left-color` — `border-left-style` and `border-left-width`</note>
+		<resume>Sets the left border of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="border-radius border radius">
+		<description></description>
+		<name>border-radius</name>
+		<note><strong>Shortcut for:</strong> `border-bottom-left-radius` — `border-bottom-right-radius` — `border-top-left-radius` and `border-top-right-radius`</note>
+		<resume>Sets the radius to each corner of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="border-right border right">
+		<description></description>
+		<name>border-right</name>
+		<note><strong>Shortcut for:</strong> `border-right-color` — `border-right-style` and `border-right-width`</note>
+		<resume>Sets the right border of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="border-top border top">
+		<description></description>
+		<name>border-top</name>
+		<note><strong>Shortcut for:</strong> `border-top-color` — `border-top-style` and `border-top-width`</note>
+		<resume>Sets the top border of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="border-top-left-radius border top left radius">
+		<description></description>
+		<name>border-top-left-radius</name>
+		<note></note>
+		<resume>Sets the radius to the top left corner of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="border-top-right-radius border top right radius">
+		<description></description>
+		<name>border-top-right-radius</name>
+		<note></note>
+		<resume>Sets the radius to the top right corner of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="box-sizing box sizing">
+		<description></description>
+		<name>box-sizing</name>
+		<note></note>
+		<resume>Modify default CSS behavior to calculate width and height</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="br">
+		<description>
+### Syntax
+
+	<![CDATA[<br>]]>
+		</description>
+		<name>br</name>
+		<note></note>
+		<resume>Defines a single line-break</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="button">
+		<description>
+### Syntax
+
+	<![CDATA[<button>]]>
+
+### Attributes
+
+#### disabled
+
+#### name
+
+#### type
+
+#### value
+		</description>
+		<name>button</name>
+		<note></note>
+		<resume>Defines a clickable button</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="canvas">
+		<description>
+### Syntax
+
+	<![CDATA[<canvas>]]>lorem ipsum<![CDATA[</canvas>]]>
+		</description>
+		<name>canvas</name>
+		<note></note>
+		<resume>Defines an area used to draw graphics, via scripting (javascript)</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="ceil">
+		<description>
+### Syntax
+
+	(float) $misc = ceil ( (float) $value );
+		</description>
+		<name>ceil()</name>
+		<note></note>
+		<resume>Round decimal numbers up</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search=":checked">
+		<description></description>
+		<name>:checked</name>
+		<note></note>
+		<resume>Select an input when checked</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Pseudo-class</type>
+	</item>
+
+	<item search="chmod">
+		<description>
+### Syntax
+
+	(bool) $misc = chmod ( (string) $filename , (int) $mode );
+		</description>
+		<name>chmod()</name>
+		<note></note>
+		<resume>Changes the file mode</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="chown">
+		<description>
+### Syntax
+
+	(bool) $misc = chown ( (string) $filename , (mixed) $user );
+		</description>
+		<name>chown()</name>
+		<note></note>
+		<resume>Changes the file owner</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="closedir">
+		<description>
+### Syntax
+
+	(void) closedir ([ (resource) $dir_handle ] );
+		</description>
+		<name>closedir()</name>
+		<note></note>
+		<resume>Close a directory handle</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="code">
+		<description>
+### Syntax
+
+	<![CDATA[<code>]]>lorem ipsum<![CDATA[</code>]]>
+		</description>
+		<name>code</name>
+		<note></note>
+		<resume>Defines a piece of computer code</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="color">
+		<description></description>
+		<name>color</name>
+		<note></note>
+		<resume>Sets the text color in an element and child elements</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="copy">
+		<description>
+### Syntax
+
+	(bool) $misc = copy ( (string) $source , (string) $dest [, (resource) $context ] );
+		</description>
+		<name>copy()</name>
+		<note></note>
+		<resume>Copies a file</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="count">
+		<description>
+### Syntax
+
+	(int) $misc = ( (mixed) $array_or_countable [, (int) $mode = COUNT_NORMAL ] );
+		</description>
+		<name>count()</name>
+		<note><strong>Alias:</strong> `sizeof`</note>
+		<resume>Count elements in an array or count something in a Countable object</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="current">
+		<description>
+### Syntax
+
+	(mixed) $misc = current ( (array) $array );
+		</description>
+		<name>current()</name>
+		<note></note>
+		<resume>Return the current pointed element in an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="cursor">
+		<description></description>
+		<name>cursor</name>
+		<note></note>
+		<resume>Specify the cursor appearance when over an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="date">
+		<description>
+### Syntax
+
+	(string) $misc = date ( (string) $format [, (int) $timestamp = time() ] );
+		</description>
+		<name>date()</name>
+		<note></note>
+		<resume>Format a date</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="date_default_timezone_set date default timezone set">
+		<description>
+### Syntax
+
+	(bool) $misc = date_default_timezone_set ( (string) $timezone_identifier );
+		</description>
+		<name>date_default_timezone_set()</name>
+		<note></note>
+		<resume>Sets the default timezone used by date / time functions</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="date.now date now">
+		<description></description>
+		<name>Date.now()</name>
+		<note></note>
+		<resume>Return the current timestamp in milliseconds</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Method</type>
+	</item>
+
+	<item search="display">
+		<description></description>
+		<name>display</name>
+		<note></note>
+		<resume>Modify the type of rendering of the element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="div">
+		<description>
+### Syntax
+
+	<![CDATA[<div>]]>lorem ipsum<![CDATA[</div>]]>
+		</description>
+		<name>div</name>
+		<note></note>
+		<resume>Defines a section in a document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="echo">
+		<description>
+### Syntax
+
+	(void) echo ( (string) $arg1 [, (string) $... ] );
+		</description>
+		<name>echo</name>
+		<note></note>
+		<resume>Output strings</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Key-word</type>
+	</item>
+
+	<item search="em">
+		<description>
+### Syntax
+
+	<![CDATA[<em>]]>lorem ipsum<![CDATA[</em>]]>
+		</description>
+		<name>em</name>
+		<note>&lt;strong&gt;Alias:&lt;/strong&gt; &lt;i&gt;</note>
+		<resume>Defines emphazed text</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="end">
+		<description>
+### Syntax
+
+	(mixed) $misc = end ( (array) $array );
+		</description>
+		<name>end()</name>
+		<note></note>
+		<resume>Point to the last element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="empty">
+		<description>
+### Syntax
+
+	(bool) $misc = empty ( (mixed) $var );
+		</description>
+		<name>empty()</name>
+		<note></note>
+		<resume>Finds whether an element is empty</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="explode">
+		<description>
+### Syntax
+
+	(array) $misc = explode ( (string) $delimiter , (string) $string [, (int) $limit ] );
+		</description>
+		<name>explode()</name>
+		<note></note>
+		<resume>Split a string into an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="fclose">
+		<description>
+### Syntax
+
+	(bool) $misc = fclose ( (resource) $handle );
+		</description>
+		<name>fclose()</name>
+		<note></note>
+		<resume>Close an open file pointer</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="fieldset">
+		<description>
+### Syntax
+
+	<![CDATA[<fieldset>]]>lorem ipsum<![CDATA[</fieldset>]]>
+		</description>
+		<name>fieldset</name>
+		<note></note>
+		<resume>Group related element in a form</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="figcaption">
+		<description>
+### Syntax
+
+	<![CDATA[<figure>]]>
+		<![CDATA[<figcaption>]]>lorem ipsum<![CDATA[</figcaption>]]>
+	<![CDATA[</figure>]]>
+		</description>
+		<name>figcaption</name>
+		<note></note>
+		<resume>Defines a caption for a `<![CDATA[<figure>]]>` element</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="figure">
+		<description>
+### Syntax
+
+	<![CDATA[<figure>]]>lorem ipsum<![CDATA[</figure>]]>
+		</description>
+		<name>figure</name>
+		<note></note>
+		<resume>Specifies self-contained content</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="file_exist file exist">
+		<description>
+### Syntax
+
+	(bool) $misc = file_exists ( (string) $filename );
+		</description>
+		<name>file_exist()</name>
+		<note></note>
+		<resume>Checks whether a file or a directory exists</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="filesize">
+		<description>
+### Syntax
+
+	(int) $misc = filesize ( (string) $filename );
+		</description>
+		<name>filesize()</name>
+		<note></note>
+		<resume>Gets file size in bytes</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="floor">
+		<description>
+### Syntax
+
+	(float) $misc = floor ( (float) $value );
+		</description>
+		<name>floor()</name>
+		<note></note>
+		<resume>Round decimal number down</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search=":focus">
+		<description></description>
+		<name>:focus</name>
+		<note></note>
+		<resume>Select element when focused</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Pseudo-class</type>
+	</item>
+
+	<item search="font">
+		<description></description>
+		<name>font</name>
+		<note><strong>Shortcut for:</strong> `font-family` — `font-size` — `font-weight` — `font-style` — `font-variant` and `line-height`</note>
+		<resume>Sets all font properties</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="font-family font family">
+		<description></description>
+		<name>font-family</name>
+		<note></note>
+		<resume>Sets the text font and specify callback fonts</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="font-size font size">
+		<description></description>
+		<name>font-size</name>
+		<note></note>
+		<resume>Sets the font height</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="-webkit-font-smoothing webkit-font-smoothing webkit font-smoothing webkit font smoothing">
+		<description></description>
+		<name>-webkit-font-smoothing</name>
+		<note>Only in webkit browser</note>
+		<resume>Controls the anti-aliasing when fonts are rendered</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="font-style font style">
+		<description></description>
+		<name>font-style</name>
+		<note></note>
+		<resume>Display the italic version of the current font</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="font-variant font variant">
+		<description></description>
+		<name>font-variant</name>
+		<note></note>
+		<resume>Display all lowercase letters as small capital letters</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="font-weight font weight">
+		<description></description>
+		<name>font-weight</name>
+		<note></note>
+		<resume>Specify the boldness of the current font</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="footer">
+		<description>
+### Syntax
+
+	<![CDATA[<footer>]]>lorem ipsum<![CDATA[</footer>]]>
+		</description>
+		<name>footer</name>
+		<note></note>
+		<resume>Defines a footer for a document or `<![CDATA[<section>]]>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="fopen">
+		<description>
+### Syntax
+
+	(resource) $misc = fopen ( (string) $filename , (string) $mode [, (bool) $use_include_path = (false) [, (resource) $context ]] );
+		</description>
+		<name>fopen()</name>
+		<note></note>
+		<resume>Open a file</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="form">
+		<description>
+### Syntax
+
+	<![CDATA[<form>]]>lorem ipsum<![CDATA[</form>]]>
+
+### Attributes
+
+#### action
+
+#### enctype
+
+#### method
+
+#### name
+		</description>
+		<name>form</name>
+		<note></note>
+		<resume>Defines a HTML for for user inputs</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="function.bind function bind">
+		<description></description>
+		<name>Function.bind()</name>
+		<note></note>
+		<resume>Creates a new function whose the provided context argument become the `this` keyword</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Method</type>
+	</item>
+
+	<item search="h1 h2 h3 h4 h5 h6">
+		<description>
+### Syntax
+
+	<![CDATA[<h1>]]>lorem ipsum<![CDATA[</h1>]]>
+		</description>
+		<name>h1 to h6</name>
+		<note></note>
+		<resume>Defines HTML headings</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="hash">
+		<description>
+### Syntax
+
+	(string) $misc = hash ( (string $algo) , (string) $data [, (bool) $raw_output = false ] );
+		</description>
+		<name>hash()</name>
+		<note></note>
+		<resume>Returns a hash string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="head">
+		<description>
+### Syntax
+
+	<![CDATA[<head>]]>lorem ipsum<![CDATA[</head>]]>
+		</description>
+		<name>head</name>
+		<note></note>
+		<resume>Defines information about the document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="header">
+		<description>
+### Syntax
+
+	<![CDATA[<header>]]>lorem ipsum<![CDATA[</header>]]>
+		</description>
+		<name>header</name>
+		<note></note>
+		<resume>Defines a header for a document or section</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="height">
+		<description></description>
+		<name>height</name>
+		<note></note>
+		<resume>Sets the height of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="html">
+		<description>
+### Syntax
+
+	<![CDATA[<html>]]>lorem ipsum<![CDATA[</html>]]>
+		</description>
+		<name>html</name>
+		<note></note>
+		<resume>Defines the root of a HTML document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="$http">
+		<description></description>
+		<name>$http</name>
+		<note></note>
+		<resume>Facilitates communication with the remote HTTP servers via the XMLHttpRequest object or via JSONP</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
+	</item>
+
+	<item search="img">
+		<description>
+### Syntax
+
+	<![CDATA[<img>]]>
+
+### Attributes
+
+#### alt
+
+#### height
+
+#### src
+
+#### target
+
+#### title
+
+#### width
+		</description>
+		<name>img</name>
+		<note></note>
+		<resume>Defines an image</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="implode">
+		<description>
+### Syntax
+
+	(string) $misc = implode ( (string) $glue , (array) $pieces );
+ 
+or
+
+	(string) $misc = implode ( (array) $pieces );
+		</description>
+		<name>implode()</name>
+		<note><strong>Alias:</strong> `join`</note>
+		<resume>Converts an array into a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="input">
+		<description>
+### Syntax
+
+	<![CDATA[<input>]]>
+
+#### autocomplete
+
+#### autofocus
+
+#### checked
+
+#### disabled
+
+#### maxlength
+
+#### multiple
+
+#### name
+
+#### placeholder
+
+#### readonly
+
+#### required
+
+#### size
+
+#### type
+
+#### value
+		</description>
+		<name>input</name>
+		<note></note>
+		<resume>Defines an input control</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="is_array is array">
+		<description>
+### Syntax
+
+	(bool) $misc = is_array ( (mixed) $var );
+		</description>
+		<name>is_array()</name>
+		<note></note>
+		<resume>Finds whether an element is an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="is_bool is bool">
+		<description>
+### Syntax
+
+	(bool) $misc = is_bool ( (mixed) $var );
+		</description>
+		<name>is_bool()</name>
+		<note></note>
+		<resume>Finds whether an element is a boolean</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="is_dir is dir">
+		<description>
+### Syntax
+
+	(bool) $misc = is_dir ( (string) $filename );
+		</description>
+		<name>is_dir()</name>
+		<note></note>
+		<resume>Finds whether an element is a directory</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="is_file is file">
+		<description>
+### Syntax
+
+	(bool) $misc = is_file ( (string) $filename );
+		</description>
+		<name>is_file()</name>
+		<note></note>
+		<resume>Finds whether an element is a file</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="is_float is float">
+		<description>
+### Syntax
+
+	(bool) $misc = is_float ( (mixed) $var );
+		</description>
+		<name>is_float()</name>
+		<note></note>
+		<resume>Finds whether an element is a float</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="is_int is int">
+		<description>
+### Syntax
+
+	(bool) $misc = is_int ( (mixed) $var );
+		</description>
+		<name>is_int()</name>
+		<note></note>
+		<resume>Finds whether an element is an integer</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="is_nan is nan">
+		<description>
+### Syntax
+
+	(bool) $misc = is_nan ( (float) $val );
+		</description>
+		<name>is_nan()</name>
+		<note></note>
+		<resume>Finds whether an element is `NaN` (Not a Number)</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="is_null is null">
+		<description>
+### Syntax
+
+	(bool) $misc = is_null ( (mixed) $var );
+		</description>
+		<name>is_null()</name>
+		<note></note>
+		<resume>Finds whether an element is `NULL`</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="is_numeric is numeric">
+		<description>
+### Syntax
+
+	(bool) $misc = is_numeric ( (mixed) $var );
+		</description>
+		<name>is_numeric()</name>
+		<note></note>
+		<resume>Finds whether an element is a number or a numeric string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="is_object is object">
+		<description>
+### Syntax
+
+	(bool) $misc = is_object ( (mixed) $var );
+		</description>
+		<name>is_object()</name>
+		<note></note>
+		<resume>Finds whether an element is an object</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="is_string is string">
+		<description>
+### Syntax
+
+	(bool) $misc = is_string ( (mixed) $var );
+		</description>
+		<name>is_string()</name>
+		<note></note>
+		<resume>Finds whether an element is a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="is_uploaded_file is uploaded file">
+		<description>
+### Syntax
+
+	(bool) $misc = is_uploaded_file ( (string) $filename );
+		</description>
+		<name>is_uploaded_file()</name>
+		<note></note>
+		<resume>Finds whether an element was uploaded by HTTP POST</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="isset">
+		<description>
+### Syntax
+
+	(bool) $misc = isset ( (mixed) $var [, (mixed) $… ] );
+		</description>
+		<name>isset()</name>
+		<note></note>
+		<resume>Finds whether a variable exists and is not `NULL`</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="json_decode json decode">
+		<description>
+### Syntax
+
+	(mixed) $misc = json_decode ( (string) $json [, (bool) $assoc = false [, (int) $depth = 512 [, (int) $options = 0 ]]] );
+		</description>
+		<name>json_decode()</name>
+		<note></note>
+		<resume>Converts a JSON string into an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="json_encode json encode">
+		<description>
+### Syntax
+
+	(string) $misc = json_encode ( (mixed) $value [, (int) $options = 0 [, (int) $depth = 512 ]] );
+		</description>
+		<name>json_encode()</name>
+		<note></note>
+		<resume>Converts an element into a JSON string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="key">
+		<description>
+### Syntax
+
+	(mixed) $misc = key ( (array) $array );
+		</description>
+		<name>key()</name>
+		<note></note>
+		<resume>Return the key value of the current element pointed in an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="krsort">
+		<description>
+### Syntax
+
+	(bool) $misc = krsort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
+		<name>krsort()</name>
+		<note></note>
+		<resume>Sort an array in reverse order by key</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="ksort">
+		<description>
+### Syntax
+
+	(bool) $misc = ksort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
+		<name>ksort()</name>
+		<note></note>
+		<resume>Sort an array by key</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="label">
+		<description>
+### Syntax
+
+	<![CDATA[<label>]]>lorem ipsum<![CDATA[</label>]]>
+
+### Attributes
+
+#### for
+		</description>
+		<name>label</name>
+		<note></note>
+		<resume>Defines a label for an `<![CDATA[<input>]]>` element</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="legend">
+		<description>
+### Syntax
+
+	<![CDATA[<fieldset>]]>
+		<![CDATA[<legend>]]>lorem ipsum<![CDATA[</legend>]]>
+	<![CDATA[</fieldset>]]>
+		</description>
+		<name>legend</name>
+		<note></note>
+		<resume>Defines a legend for a `<![CDATA[<fieldset>]]>` element</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="li">
+		<description>
+### Syntax
+
+	<![CDATA[<ul>]]>
+		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
+	<![CDATA[</ul>]]>
+
+or
+
+	<![CDATA[<ol>]]>
+		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
+	<![CDATA[</ol>]]>
+
+		</description>
+		<name>li</name>
+		<note></note>
+		<resume>Defines a list item</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="line-height line height">
+		<description></description>
+		<name>line-height</name>
+		<note></note>
+		<resume>Specify the height for a text line</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="ltrim">
+		<description>
+### Syntax
+
+	(string) $misc = ltrim ( (string) $str [, (string) $character_mask ] );
+		</description>
+		<name>ltrim()</name>
+		<note></note>
+		<resume>Removes characters from the left extremity of a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="mail">
+		<description>
+### Syntax
+
+	(bool) $misc = mail ( (string) $to , (string) $subject , (string) $message [, (string) $additional_headers [, (string) $additional_parameters ]] );
+		</description>
+		<name>mail()</name>
+		<note></note>
+		<resume>Send a mail</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="main">
+		<description>
+### Syntax
+
+	<![CDATA[<main>]]>lorem ipsum<![CDATA[</main>]]>
+		</description>
+		<name>main</name>
+		<note></note>
+		<resume>Defines the main content of a document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="margin">
+		<description></description>
+		<name>margin</name>
+		<note></note>
+		<resume>Sets the margin to each side of an element</resume>
+		<seealso>`margin-bottom` — `margin-left` — `margin-right` — `margin-top`</seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="menu">
+		<description>
+### Syntax
+
+	<![CDATA[<menu>]]>lorem ipsum<![CDATA[</menu>]]>
+		</description>
+		<name>menu</name>
+		<note></note>
+		<resume>Defines a list / menu of command</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="meta">
+		<description>
+### Syntax
+
+	<![CDATA[<meta>]]>
+
+### Attributes
+
+#### charset
+
+#### content
+
+#### http-equiv
+
+#### name
+		</description>
+		<name>meta</name>
+		<note></note>
+		<resume>Defines metadata about a HTML document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="mkdir">
+		<description>
+### Syntax
+
+	(bool) $misc = mkdir ( (string) $pathname [, (int) $mode = 0777 [, (bool) $recursive = false [, (resource) $context ]]] );
+		</description>
+		<name>mkdir()</name>
+		<note></note>
+		<resume>Creates a directory</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="module.config module config">
+		<description></description>
+		<name>module.config()</name>
+		<note></note>
+		<resume>Configure providers or constant</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="module.controller module controller">
+		<description></description>
+		<name>module.controller()</name>
+		<note></note>
+		<resume>Creates a custom controller</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="module.factory module factory">
+		<description></description>
+		<name>module.factory()</name>
+		<note></note>
+		<resume>Creates a custom factory</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="module.service module service">
+		<description></description>
+		<name>module.service()</name>
+		<note></note>
+		<resume>Creates a custom service</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="mt_rand mt rand">
+		<description>
+### Syntax
+
+	(int) $misc =  mt_rand ( void );
+
+or
+
+	(int) $misc = mt_rand ( (int) $min , (int) $max );
+		</description>
+		<name>mt_rand()</name>
+		<note></note>
+		<resume>Generates a random number</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="nav">
+		<description>
+### Syntax
+
+	<![CDATA[<nav>]]>lorem ipsum<![CDATA[</nav>]]>
+		</description>
+		<name>nav</name>
+		<note></note>
+		<resume>Defines navigation links</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="next">
+		<description>
+### Syntax
+
+	(mixed) $misc = next ( (array) $array );
+		</description>
+		<name>next()</name>
+		<note></note>
+		<resume>Point to the next element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="ng-app ngapp">
+		<description></description>
+		<name>ng-app</name>
+		<note></note>
+		<resume>Auto-bootstrap an AngularJS application</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Attribute</type>
+	</item>
+
+	<item search="ng-controller ngcontroller">
+		<description></description>
+		<name>ng-controller</name>
+		<note></note>
+		<resume>Attaches a controller to the view element</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Attribute</type>
+	</item>
+
+	<item search="ng-hide nghide">
+		<description></description>
+		<name>ng-hide</name>
+		<note></note>
+		<resume>Hides or shows the given HTML element based on the expression provided</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Attribute</type>
+	</item>
+
+	<item search="ng-show ngshow">
+		<description></description>
+		<name>ng-show</name>
+		<note></note>
+		<resume>Shows or hides the given HTML element based on the expression provided</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Attribute</type>
+	</item>
+
+	<item search="ng-view ngview">
+		<description></description>
+		<name>ng-view</name>
+		<note>Implements the &lt;$route&gt; module</note>
+		<resume>Includes the rendered template of the current route into the main layout (index.html) file.</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Attribute</type>
+	</item>
+
+	<item search="nl2br">
+		<description>
+### Syntax
+
+	(string) $misc = nl2br ( (string) $string [, (bool) $is_xhtml = true ] );
+		</description>
+		<name>nl2br()</name>
+		<note></note>
+		<resume>Converts all new line in a string into an HTML line break</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="noscript">
+		<description>
+### Syntax
+
+	<![CDATA[<noscript>]]>lorem ipsum<![CDATA[</noscript>]]>
+		</description>
+		<name>noscript</name>
+		<note></note>
+		<resume>Defines an alternate content for user that do not support client-side scripts</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search=":not">
+		<description></description>
+		<name>:not(`selector`)</name>
+		<note></note>
+		<resume>Select element if it not matches the selector in the `:not()` function</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Pseudo-class</type>
+	</item>
+
+	<item search="ol">
+		<description>
+### Syntax
+
+	<![CDATA[<ol>]]>
+		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
+	<![CDATA[</ol>]]>
+		</description>
+		<name>ol</name>
+		<note></note>
+		<resume>Defines an ordored list</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="opendir">
+		<description>
+### Syntax
+
+	(resource) $misc = opendir ( (string) $path [, (resource) $context ] );
+		</description>
+		<name>opendir()</name>
+		<note></note>
+		<resume>Open a directory handle</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="optgroup">
+		<description>
+### Syntax
+
+	<![CDATA[<select>]]>
+		<![CDATA[<optgroup>]]>
+			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
+		<![CDATA[</optgroup>]]>
+	<![CDATA[</select>]]>
+
+### Attributes
+
+#### disabled
+
+#### label
+		</description>
+		<name>optgroup</name>
+		<note></note>
+		<resume>Defines a group of related options in a `<![CDATA[<select>]]>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="option">
+		<description>
+### Syntax
+
+	<![CDATA[<select>]]>
+		<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
+	<![CDATA[</select>]]>
+
+or
+
+	<![CDATA[<select>]]>
+		<![CDATA[<optgroup>]]>
+			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
+		<![CDATA[</optgroup>]]>
+	<![CDATA[</select>]]>
+
+### Attributes
+
+#### disabled
+
+#### label
+
+#### selected
+
+#### value
+		</description>
+		<name>option</name>
+		<note></note>
+		<resume>Defines an option in a `<![CDATA[<select>]]>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="outline">
+		<description></description>
+		<name>outline</name>
+		<note><strong>Shortcut for:</strong> `outline-color` — `outline-width` and `outline-style`</note>
+		<resume>Sets the outline render of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="outline-color outline color">
+		<description></description>
+		<name>outline-color</name>
+		<note></note>
+		<resume>Sets the outline color of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="outline-style outline style">
+		<description></description>
+		<name>outline-style</name>
+		<note></note>
+		<resume>Sets the outline style of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="outline-width outline width">
+		<description></description>
+		<name>outline-width</name>
+		<note></note>
+		<resume>Sets the outline width of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="overflow">
+		<description></description>
+		<name>overflow</name>
+		<note></note>
+		<resume>Modify default CSS behavior when a text overflow a block element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="overflow-x">
+		<description></description>
+		<name>overflow-x</name>
+		<note></note>
+		<resume>Modify default CSS horizontal behavior when a text overflow a block element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="overflow-y">
+		<description></description>
+		<name>overflow-y</name>
+		<note></note>
+		<resume>Modify default CSS vertical behavior when a text overflow a block element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="p">
+		<description>
+### Syntax
+
+	<![CDATA[<p>]]>lorem ipsum<![CDATA[</p>]]>
+		</description>
+		<name>p</name>
+		<note></note>
+		<resume>Defines a paragraph</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="padding">
+		<description></description>
+		<name>padding</name>
+		<note><strong>Shortcut for:</strong> `padding-bottom` — `padding-left` — `padding-right` and `padding-top`</note>
+		<resume>Sets the padding to each side of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="parseFloat parse float">
+		<description></description>
+		<name>parseFloat()</name>
+		<note></note>
+		<resume>Parses a string argument and returns a float number</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="parseInt parse int">
+		<description></description>
+		<name>parseInt()</name>
+		<note></note>
+		<resume>Parses a string argument and returns an integer of the specified base</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="pi">
+		<description>
+### Syntax
+
+	(float) $misc = pi ( void );
+		</description>
+		<name>pi()</name>
+		<note></note>
+		<resume>Return the value of pi</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="pow">
+		<description>
+### Syntax
+
+	(number) $misc = pow ( (number) $base , (number) $exp );
+		</description>
+		<name>pow()</name>
+		<note></note>
+		<resume>Returns an exponential value</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="pre">
+		<description>
+### Syntax
+
+	<![CDATA[<pre>]]>lorem ipsum<![CDATA[</pre>]]>
+		</description>
+		<name>pre</name>
+		<note></note>
+		<resume>Defines preformatted text</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="prev">
+		<description>
+### Syntax
+
+	(mixed) $misc = prev ( (array) $array );
+		</description>
+		<name>prev()</name>
+		<note></note>
+		<resume>Point to the previous element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="$q">
+		<description></description>
+		<name>$q</name>
+		<note></note>
+		<resume>A promise / deferred implementation</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
+	</item>
+
+	<item search="readdir">
+		<description>
+### Syntax
+
+	(string) $misc = readdir ( [ (resource) $dir_handle ] );
+		</description>
+		<name>readdir()</name>
+		<note></note>
+		<resume>Read an entry from a directory handle</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="rename">
+		<description>
+### Syntax
+
+	(bool) $misc = rename ( (string) $oldname , (string) $newname [, (resource) $context ] );
+		</description>
+		<name>rename()</name>
+		<note></note>
+		<resume>Rename a file of a directory</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search=":required">
+		<description></description>
+		<name>:required</name>
+		<note></note>
+		<resume>Select `required` inputs</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Pseudo-class</type>
+	</item>
+
+	<item search="reset">
+		<description>
+### Syntax
+
+	(mixed) $misc = reset ( (array) $array );
+		</description>
+		<name>reset()</name>
+		<note></note>
+		<resume>Point to the first element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="rmdir">
+		<description>
+### Syntax
+
+	(bool) $misc = rmdir ( (string) $dirname [, (resource) $context ] );
+		</description>
+		<name>rmdir()</name>
+		<note></note>
+		<resume>Remove an empty directory</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="$rootScope">
+		<description></description>
+		<name>$rootScope</name>
+		<note></note>
+		<resume>Global scope of the application</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
+	</item>
+
+	<item search="rsort">
+		<description>
+### Syntax
+
+	(bool) $misc = rsort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
+		<name>rsort()</name>
+		<note></note>
+		<resume>Sort an array in reverse order but don't maintain index association</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="rtrim">
+		<description>
+### Syntax
+
+	(string) $misc = rtrim ( (string) $str [, (string) $character_mask ] );
+		</description>
+		<name>rtrim()</name>
+		<note></note>
+		<resume>Removes characters from the right extremity of a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="$scope">
+		<description></description>
+		<name>$scope</name>
+		<note></note>
+		<resume>Current scope of the controller</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
+	</item>
+
+	<item search="script">
+		<description>
+### Syntax
+
+	<![CDATA[<script>]]>lorem ipsum<![CDATA[</script>]]>
+
+### Attributes
+
+#### async
+
+#### src
+
+#### type
+		</description>
+		<name>script</name>
+		<note></note>
+		<resume>Defines a client-side script</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="section">
+		<description>
+### Syntax
+
+	<![CDATA[<section>]]>lorem ipsum<![CDATA[</section>]]>
+		</description>
+		<name>section</name>
+		<note></note>
+		<resume>Defines a section in a document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="select">
+		<description>
+### Syntax
+
+	<![CDATA[<select>]]>
+		<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
+	<![CDATA[</select>]]>
+
+or
+
+	<![CDATA[<select>]]>
+		<![CDATA[<optgroup>]]>
+			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
+		<![CDATA[</optgroup>]]>
+	<![CDATA[</select>]]>
+
+### Attributes
+
+#### autofocus
+
+#### disabled
+
+#### multiple
+
+#### name
+
+#### required
+		</description>
+		<name>select</name>
+		<note></note>
+		<resume>Defines a drop-down list</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="serialize">
+		<description>
+### Syntax
+
+	(string) $misc = serialize ( (mixed) $value );
+		</description>
+		<name>serialize()</name>
+		<note></note>
+		<resume>Converts an element into a storable representation</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="shuffle">
+		<description>
+### Syntax
+
+	(bool) $misc = shuffle ( (array) $array );
+		</description>
+		<name>shuffle()</name>
+		<note></note>
+		<resume>Randomize the order of elements in an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="source">
+		<description>
+### Syntax
+
+	<![CDATA[<audio>]]>
+		<![CDATA[<source>]]>
+	<![CDATA[</audio>]]>
+
+or
+
+	<![CDATA[<video>]]>
+		<![CDATA[<source>]]>
+	<![CDATA[</video>]]>
+
+### Attributes
+
+#### src
+
+#### type
+		</description>
+		<name>source</name>
+		<note></note>
+		<resume>Defines a media resource for `<![CDATA[<audio>]]>` and `<![CDATA[<video>]]>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="span">
+		<description>
+### Syntax
+
+	<![CDATA[<span>]]>lorem ipsum<![CDATA[</span>]]>
+		</description>
+		<name>span</name>
+		<note></note>
+		<resume>Defines a section in an inline element</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="sort">
+		<description>
+### Syntax
+
+	(bool) $misc = sort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
+		<name>sort()</name>
+		<note></note>
+		<resume>Sort an array but don't maintain index association</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="sqrt">
+		<description>
+### Syntax
+
+	(float) $misc = sqrt ( (float) $arg );
+		</description>
+		<name>sqrt()</name>
+		<note></note>
+		<resume>Returns the square root of an element</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="str_replace str replace">
+		<description>
+### Syntax
+
+	(mixed) $misc = str_replace ( (mixed) $search , (mixed) $replace , (mixed) $subject [, (int) $count ] );
+		</description>
+		<name>str_replace()</name>
+		<note></note>
+		<resume>Replace all occurrences of the search string with the replacement string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="str_shuffle str shuffle">
+		<description>
+### Syntax
+
+	(string) $misc = str_shuffle ( (string) $str );
+		</description>
+		<name>str_shuffle()</name>
+		<note></note>
+		<resume>Randomly shuffles a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="strip_tags strip tags">
+		<description>
+### Syntax
+
+	(string) $misc = strip_tags ( (string) $str [, (string) $allowable_tags ] );
+		</description>
+		<name>strip_tags()</name>
+		<note></note>
+		<resume>Removes HTML and PHP tags from a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="strlen">
+		<description>
+### Syntax
+
+	(int) $misc = strlen ( (string) $string );
+		</description>
+		<name>strlen()</name>
+		<note></note>
+		<resume>Returns the string length</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="strong">
+		<description>
+### Syntax
+
+	<![CDATA[<strong>]]>lorem ipsum<![CDATA[</strong>]]>
+		</description>
+		<name>strong</name>
+		<note></note>
+		<resume>Defines important text</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="strpos">
+		<description>
+### Syntax
+
+	(mixed) $misc = strpos ( (string) $haystack , (mixed) $needle [, (int) $offset = 0 ] );
+		</description>
+		<name>strpos()</name>
+		<note></note>
+		<resume>Find the position of the first occurrence of a character in a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="strrchr">
+		<description>
+### Syntax
+
+	(string) $misc = strrchr ( (string) $haystack , (mixed) $needle );
+		</description>
+		<name>strrchr()</name>
+		<note></note>
+		<resume>Find the last occurrence of a character in a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="strrpos">
+		<description>
+### Syntax
+
+	(int) $misc = strrpos ( (string) $haystack , (mixed) $needle [, (int) $offset = 0 ] );
+		</description>
+		<name>strrpos()</name>
+		<note></note>
+		<resume>Find the position of the last occurrence of a character in a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="strstr">
+		<description>
+### Syntax
+
+	(string) $misc = strstr ( (string) $haystack , (mixed) $needle [, (bool) $before_needle = false ] );
+		</description>
+		<name>strstr()</name>
+		<note><strong>Alias:</strong> `strchr`</note>
+		<resume>Find the first occurrence of a character in a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="style">
+		<description>
+### Syntax
+
+	<![CDATA[<style>]]>lorem ipsum<![CDATA[</style>]]>
+		</description>
+		<name>style</name>
+		<note></note>
+		<resume>Defines style information for a document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="sub">
+		<description>
+### Syntax
+
+	<![CDATA[<sub>]]>lorem ipsum<![CDATA[</sub>]]>
+		</description>
+		<name>sub</name>
+		<note></note>
+		<resume>Defines subscripted text</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="substr">
+		<description>
+### Syntax
+
+	(string) $misc = substr ( (string) $string , (int) $start [, (int) $length ] );
+		</description>
+		<name>substr()</name>
+		<note></note>
+		<resume>Returns part of a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="sup">
+		<description>
+### Syntax
+
+	<![CDATA[<sup>]]>lorem ipsum<![CDATA[</sup>]]>
+		</description>
+		<name>sup</name>
+		<note></note>
+		<resume>Defines supscripted text</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="table">
+		<description>
+### Syntax
+
+	<![CDATA[<table>]]>lorem ipsum<![CDATA[</table>]]>
+
+### Attributes
+
+#### border
+
+#### cellpadding
+
+#### cellspacing
+		</description>
+		<name>table</name>
+		<note></note>
+		<resume>Defines a table</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="td">
+		<description>
+### Syntax
+
+	<![CDATA[<td>]]>lorem ipsum<![CDATA[</td>]]>
+		</description>
+		<name>td</name>
+		<note></note>
+		<resume>Defines a cell in a `<![CDATA[<table>]]>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="text-align text align">
+		<description></description>
+		<name>text-align</name>
+		<note></note>
+		<resume>Sets the alignment of the text of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="text-decoration text decoration">
+		<description></description>
+		<name>text-decoration</name>
+		<note></note>
+		<resume>Sets the text formatting `underline`, `overline` and `line-through`</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="textarea">
+		<description>
+### Syntax
+
+	<![CDATA[<textarea>]]>lorem ipsum<![CDATA[</textarea>]]>
+
+### Attributes
+
+#### autofocus
+
+#### cols
+
+#### disabled
+
+#### maxlength
+
+#### name
+
+#### placeholder
+
+#### readonly
+
+#### required
+
+#### rows
+		</description>
+		<name>textarea</name>
+		<note></note>
+		<resume>Defines a multiline input control</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Inline tag</type>
+	</item>
+
+	<item search="th">
+		<description>
+### Syntax
+
+	<![CDATA[<th>]]>lorem ipsum<![CDATA[</th>]]>
+		</description>
+		<name>th</name>
+		<note></note>
+		<resume>Defines a header cell in a `<![CDATA[<table>]]>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="time">
+		<description></description>
+		<name>time()</name>
+		<note></note>
+		<resume>Return the current timestamp</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="title">
+		<description>
+### Syntax
+
+	<![CDATA[<head>]]>
+		<![CDATA[<title>]]>lorem ipsum<![CDATA[</title>]]>
+	<![CDATA[</head>]]>
+		</description>
+		<name>title</name>
+		<note></note>
+		<resume>Defines a title for the document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="tr">
+		<description>
+### Syntax
+
+	<![CDATA[<tr>]]>lorem ipsum<![CDATA[</tr>]]>
+		</description>
+		<name>tr</name>
+		<note></note>
+		<resume>Defines a row in a `<![CDATA[<table>]]>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="transition">
+		<description></description>
+		<name>transition</name>
+		<note><strong>Shortcut for:</strong> `transition-property` — `transition-duration` — `transition-delay` and `transition-timing-function`</note>
+		<resume>Specify a transition when an element style property changes</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="transition-delay transition delay">
+		<description></description>
+		<name>transition-delay</name>
+		<note></note>
+		<resume>Sets a delay before a transition is played</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="transition-duration transition duration">
+		<description></description>
+		<name>transition-duration</name>
+		<note></note>
+		<resume>Sets how long a transition need to be played</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="transition-property transition property">
+		<description></description>
+		<name>transition-property</name>
+		<note></note>
+		<resume>Specify what properties shall be affect by the transition</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+	<item search="trim">
+		<description>
+### Syntax
+
+	(string) $misc = trim ( (string) $str [, (string) $character_mask = " \t\n\r\0\x0B" ] );
+		</description>
+		<name>trim()</name>
+		<note></note>
+		<resume>Remove characters from both extremities of a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="ul">
+		<description>
+### Syntax
+
+	<![CDATA[<ul>]]>
+		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
+	<![CDATA[</ul>]]>
+		</description>
+		<name>ul</name>
+		<note></note>
+		<resume>Defines an unordered list</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search="unlink">
+		<description>
+### Syntax
+
+	(bool) $misc = unlink ( (string) $filename [, (resource) $context ] );
+		</description>
+		<name>unlink()</name>
+		<note><strong>Alias:</strong> `delete`</note>
+		<resume>Deletes a file</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="unserialize">
+		<description>
+### Syntax
+
+	(mixed) $misc = unserialize ( (string) $str );
+		</description>
+		<name>unserialize()</name>
+		<note></note>
+		<resume>Converts a storable representation into an PHP value</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search=":valid">
+		<description></description>
+		<name>:valid</name>
+		<note></note>
+		<resume>True if input is not empty and matches with the `type` attribute</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Pseudo-class</type>
+	</item>
+
+	<item search="var_dump var dump">
+		<description>
+### Syntax
+
+	(void) var_dump ( (mixed) $expression [, (mixed) $… ] );
+		</description>
+		<name>var_dump()</name>
+		<note></note>
+		<resume>Dumps information about a variable</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="video">
+		<description>
+### Syntax
+
+	<![CDATA[<video>]]>
+		<![CDATA[<source>]]>
+	<![CDATA[</video>]]>
+
+### Attributes
+
+#### autoplay
+
+#### controls
+
+#### loop
+
+#### muted
+
+#### preload
+
+#### src
+
+#### volume
+		</description>
+		<name>video</name>
+		<note></note>
+		<resume>Defines a video or a movie</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Block tag</type>
+	</item>
+
+	<item search=":visited">
+		<description></description>
+		<name>:visited</name>
+		<note></note>
+		<resume>Select `:visited` links</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Pseudo-class</type>
+	</item>
+
+	<item search="width">
+		<description></description>
+		<name>width</name>
+		<note></note>
+		<resume>Sets the width of an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
+	</item>
+
+
+	<!--
+	<item search="listen">
+		<description></description>
+		<name>listen()</name>
+		<note></note>
+		<resume>Server listen on given port attribute</resume>
+		<seealso></seealso>
+		<tech>NodeJS</tech>
+		<type>Function</type>
+	</item>
+	-->
+</items>

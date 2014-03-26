@@ -1,0 +1,416 @@
+/* MISC. */
+*, input, textarea {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+body {
+	background: #fcfdff;
+	color: #1a1a1a;
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.4;
+	-webkit-font-smoothing: antialiased;
+}
+
+code {
+	background: rgba(255,255,255,.85);
+	border: 1px solid #eee;
+	border-radius: 3px;
+	color: #1a1a1a;
+	display: inline-block;
+	font-size: 1.35em; /* em, not rem */
+	padding: 0 .33rem 1px;
+	white-space: nowrap;
+}
+	pre {
+		background: rgba(255,255,255,.85);
+		border: 1px solid #eee;
+		border-radius: 3px;
+		margin: 1rem 0;
+		padding: .15rem .5rem;
+	}
+	pre code {
+		background: none;
+		border: none;
+		line-height: 1.75;
+		padding: 0;
+		white-space: normal;
+	}
+
+#content {
+	padding-top: 12rem; /* header height */
+	padding-bottom: 3rem; /* footer height */
+}
+#content, header {
+	margin: auto;
+	width: 35rem;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+input, textarea {
+	border: 0;
+	outline: 0;
+}
+/* MISC. */
+
+/* LOADING SCREEN */
+#loading-screen {
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+
+	background: #ececec;
+	z-index: 99;
+
+	-moz-transition: opacity .3s, z-index 0 .3s;
+	-webkit-transition: opacity .3s, z-index 0 .3s;
+	transition: opacity .3s, z-index 0 .3s;
+}
+#loading-screen.hidden {
+	opacity: 0;
+
+	z-index: -1;
+}
+
+#loading-screen .loader {
+	position: fixed;
+	top: 50%; right: 0; left: 0;
+	
+	box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;
+	display: inline-block;
+	margin: auto;
+	margin-top: -.125rem;
+	height: .25rem;
+	width: .25rem;
+
+	-moz-animation: dots 5s infinite ease-in-out;
+	-webkit-animation: dots 5s infinite ease-in-out;
+	animation: dots 5s infinite ease-in-out;
+}
+
+@-moz-keyframes dots {
+	0% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	8.33% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	16.67% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem 1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	25% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	33.33% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 -1rem -1rem 0 .5rem;}
+	41.67% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	50% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	58.33% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	66.67% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem -1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	75% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	83.33% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 1rem 1rem 0 .5rem;}
+	91.67% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	100% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+}
+@-webkit-keyframes dots {
+	0% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	8.33% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	16.67% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem 1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	25% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	33.33% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 -1rem -1rem 0 .5rem;}
+	41.67% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	50% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	58.33% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	66.67% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem -1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	75% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	83.33% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 1rem 1rem 0 .5rem;}
+	91.67% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	100% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+}
+@keyframes dots {
+	0% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	8.33% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	16.67% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem 1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	25% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	33.33% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 -1rem -1rem 0 .5rem;}
+	41.67% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	50% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	58.33% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	66.67% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem -1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	75% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	83.33% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 1rem 1rem 0 .5rem;}
+	91.67% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	100% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+}
+/* END LOADING SCREEN */
+
+/* HEADER */
+header {
+	position: fixed;
+	top: 0; right: 0; left: 0;
+
+	background: #fcfdff;
+	border-bottom: 1px solid #ccc;
+	padding: 1rem 0;
+	z-index: 98;
+}
+
+header h1 {
+	font-family: 'Chaparral pro', serif;
+	font-size: 2.5rem;
+	margin-bottom: -1rem;
+}
+header h2 {
+	color: #777;
+	font-size: 0.85rem;
+}
+
+header sup {
+	color: #777;
+	font-size: .75rem;
+	text-transform: uppercase;
+	vertical-align: 1.25rem;
+}
+
+/* END HEADER */
+
+
+/* MENU */
+menu ul {
+	border: 3px;
+	display: -moz-box;		/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-box;		/* TWEENER - IE 10 */
+	display: -webkit-box;	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -webkit-flex;	/* NEW - Chrome28-, Safari 7.1 */
+	display: flex;			/* NEW, Spec - Chrome29+ Firefox 20+, Opera 12.1 & 17+ */
+	flex-wrap: wrap;
+	justify-content: flex-start; /* flex default */
+	list-style: none;
+	margin-top: .5rem;
+}
+menu li {
+	align-items: flex-start;
+	border: 1px solid #ccc;
+	border-left: none;
+	display: flex;
+	font-size: .85rem;
+}
+menu li:first-of-type {
+	border-left: 1px solid #ccc;
+	border-radius: 3px 0 0 3px;
+}
+menu li:last-of-type {
+	border-radius: 0 3px 3px 0;
+}
+menu input {
+	display: none;
+}
+menu input:checked + label {
+	background: #ddd;
+}
+menu label {
+	background: #fff;
+	cursor: pointer;
+	display: block;
+	padding: .33rem .67rem;
+	
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+menu label:hover {
+	background: #eee;
+}
+
+/* END MENU */
+
+
+/* ARTICLE */
+
+article {
+	margin-top: 2rem;
+	opacity: 1;
+
+	-moz-transition: .5s opacity;
+	-webkit-transition: .5s opacity;
+	transition: .5s opacity;
+}
+article:last-of-type {
+	margin-bottom: 2rem;
+}
+
+article .description {
+	border-left: .15rem solid #aaa;
+	color: #777;
+	font-size: .85rem;
+	padding: .5rem 1rem;
+}
+article .description h3 {
+	border-bottom: .33rem solid #e5e6e9;
+	font-family: 'Chaparral Pro', serif;
+	font-size: 1rem;
+	-webkit-font-smoothing: initial;
+	padding: .25rem;
+}
+
+article .note {
+	margin-top: 1rem;
+}
+
+article .tech {
+	background: #aaa;
+	color: #fff;
+	padding-right: 1rem;
+	text-align: right;
+}
+
+article .title {
+	border-left: .15rem solid #aaa;
+	border-radius: 0 2px 2px 0;
+	padding: .5rem 1rem;
+
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+article .title:hover, article .tech:hover + .title {
+	background: #f6f7fa;
+}
+article .title a, article .title span {
+	display: block;
+}
+article .title .link-title {
+	font-size: 1.5rem;
+}
+article .title .subtitle {
+	color: #777;
+	font-size: 1rem;
+	margin-top: .5rem;
+}
+
+article .type {
+	color: #777;
+	font-size: 0.85rem;
+}
+
+/* vanish transition */
+article.vanish {
+	opacity: 0;
+}
+/* end vanish transition */
+
+/* full article */
+article.alone {
+	background: #f6f7fa;
+}
+article.alone .description {
+	padding-bottom: 1rem;
+}
+/* end full article */
+
+/* fix by tech */
+article.angularjs .tech {background: #d45b43;}
+article.angularjs .title, article.angularjs .description {border-left: .15rem solid #d45b43;}
+
+article.css .tech {background: #f16529;}
+article.css .title, article.css .description {border-left: .15rem solid #f16529;}
+
+article.js .tech {background: #f0db4f;color: #333;}
+article.js .title, article.js .description {border-left: .15rem solid #f0db4f;}
+
+article.php .tech {background: #8c8cc5;}
+article.php .title, article.php .description {border-left: .15rem solid #8c8cc5;}
+/* end fix by tech */
+
+/* END ARTICLE */
+
+
+
+/* #INPUT-LABEL */
+
+#input-label {
+	position: relative;
+
+	margin-top: 1rem;
+	overflow: hidden;
+}
+
+/* normal state */
+#input-label input {
+	border: 0.15rem solid #aaa;
+	border-radius: 2px;
+	display: block;
+	font-size: 1.75rem;
+	height: 3.75rem;
+	padding: 0 0.5rem;
+	width: 100%;
+
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+#input-label label {
+	position: absolute;
+	top: auto; right: 0; bottom: 0; left: 0;
+
+	background: #aaa;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 0.85rem;
+	height: 0;
+	padding-left: 1rem;
+	text-transform: uppercase;
+
+	-moz-transition: 
+		background 0.2s,
+		padding 0.2s;
+	-webkit-transition: 
+		background 0.2s,
+		padding 0.2s;
+	transition: 
+		background 0.2s,
+		padding 0.2s;
+}
+/* end normal state */
+
+/* when focused or valid
+	:valid is when input is required & not empty
+*/
+#input-label input:focus, #input-label input:valid {
+	border-color: #be9d58;
+	padding-bottom: 1rem;
+}
+
+#input-label input:not(:focus):valid {
+	border: .15rem solid #aaa;
+	padding-bottom: 1rem;
+}
+
+#input-label input:focus + label, #input-label input:valid + label {
+	background: #be9d58;
+	padding-bottom: 1.2rem;
+}
+
+#input-label input:not(:focus):valid + label {
+	background: #aaa;
+}
+/* end focused or valid */
+
+/* END .INPUT LABEL */
+
+/* FOOTER */
+footer {
+	position: fixed;
+	top: auto; right: 0; bottom: 0; left: 0;
+
+	background: #fcfdff;
+	border-top: 1px solid #aaa;
+	color: #777;
+	font-size: 0.85rem;
+	margin: auto;
+	padding: .5rem 0;
+	width: 35rem;
+}
+/* END FOOTER */
