@@ -1,0 +1,47 @@
+#   Empêche la visualisation de l'arborescence, n'a rien à voir avec le masquage du « index.php ».
+Options -Indexes
+Options +FollowSymLinks
+
+
+
+
+### CI rewrite /index.php/
+
+# Active le module de réécriture d'URL.
+RewriteEngine on
+
+RewriteBase /~fabienmathis/git/julia/
+
+# Do not enable rewriting for files or directories that exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# For requests that are not actual files or directories,
+# Rewrite to index.php/URL
+RewriteRule ^(.*)$ index.php/$1 [PT,L]
+
+### END CI rewrite /index.php/
+
+
+
+
+### SET CACHE
+# 1 week 	= 604.800
+# 1 day 	= 86.400
+
+# images
+<filesMatch ".(jpg|jpeg|png|gif|swf|ico)$">
+	Header set Cache-Control "max-age=604800, public"
+</filesMatch>
+
+# kind of static files
+<filesMatch ".(xml|txt|js)$">
+	Header set Cache-Control "max-age=604800, proxy-revalidate"
+</filesMatch>
+
+# kind of non-static files
+<filesMatch ".(html|htm|css|php)$">
+	Header set Cache-Control "max-age=86400, private, proxy-revalidate"
+</filesMatch>
+
+### END SET CACHE
