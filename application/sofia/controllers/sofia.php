@@ -17,7 +17,7 @@ class Sofia extends MY_Controller {
 
 		//! ADD JS
 		$this->layout->add_js('nav.fixed');
-		$this->layout->add_js('smooth-scroll');
+		//$this->layout->add_js('smooth-scroll');
 		//! END ADD JS
 
 		// Get work resume

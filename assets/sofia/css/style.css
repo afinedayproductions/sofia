@@ -204,12 +204,7 @@ header img {
 
 #logo {
 	float: left;
-	margin-top: .85rem;
-}
-@media(max-width: 55rem) {
-	#logo {
-		margin-top: .15rem;
-	}
+	margin-top: .15rem;
 }
 
 #logo img {
@@ -246,7 +241,7 @@ nav.fixed {
 
 nav li {
 	display: inline-block;
-	margin-right: 2rem;
+	margin-right: .67rem;
 }
 nav li:last-of-type {
 	margin-right: 0;
@@ -256,8 +251,10 @@ nav li a {
 	position: relative;
 
 	display: block;
-	padding: 1.5rem 2rem;
-	text-transform: uppercase;
+	font-family: 'Baron Neue', 'Fontin', sans-serif;
+	font-size: 1.15rem;
+	padding: .5rem;
+	text-transform: lowercase;
 
 	-moz-transition: color .3s;
 	-webkit-transition: color .3s;
@@ -266,8 +263,9 @@ nav li a {
 
 nav li a:before, nav li a:after {
 	position: absolute;
-	top: 0; bottom: 0; left: auto;
+	top: -.75rem; bottom: 0; left: auto; right: auto;
 
+	color: #be9d58;
 	line-height: 3.5;
 	opacity: 0;
 
@@ -299,6 +297,8 @@ nav li a:hover {
 }
 
 nav ul {
+	float: right;
+	padding-top: .33rem;
 	text-align: center;
 }
 
@@ -308,6 +308,7 @@ nav ul {
 		display: inline-block;
 		float: right;
 		padding: .5em 1em;
+		text-align: center;
 	}
 
 	#nav-input + ul {
@@ -472,6 +473,7 @@ progress[value]::-webkit-progress-value {
 
 	background-size: cover;
 	border: 1px solid #ddd;
+	cursor: pointer; /* fix little eye catcher blink due to transition <a> */
 	display: inline-block;
 	height: 333px;
 	margin-right: 20px;
