@@ -21,8 +21,24 @@ class Works extends MY_Controller {
 		// Get work's data
 		$work = $this->m_works->getWork($work_id);
 
+		// No work to display == 404
 		if(empty($work))
 			show_404();
+
+		// We set readable date
+		$this->load->library('Afdp_format');
+		$work->date_debut = $this->afdp_format->setDateMonthYear($work->date_debut);
+		$work->date_fin = $this->afdp_format->setDateMonthYear($work->date_fin);
+		// We set correct URL
+		$work->url = $this->afdp_format->setURL($work->url);
+
+		// Si les mois sont les mêmes (projet d'un mois)
+		if($work->date_debut == $work->date_fin)
+			$work->periode = $work->date_debut;
+		else if($work->date_fin == ' 0000')
+			$work->periode = $work->date_debut . ' — En cours';
+		else
+			$work->periode = $work->date_debut . ' — ' . $work->date_fin;
 
 		$data['work'] = $work;
 

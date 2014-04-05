@@ -21,11 +21,6 @@ class Sofia extends MY_Controller {
 		$works = $this->m_works->getLastWorksResume(3);
 		$data['works'] = $works;
 
-		//! ADD JS
-		//$this->layout->add_js('nav.fixed');
-		//$this->layout->add_js('smooth-scroll');
-		//! END ADD JS
-
 		//! SET VIEWS
 		$this->layout->views('v_header');
 		$this->layout->views('v_nav');
