@@ -210,7 +210,6 @@ nav {
 	color: #444;
 	font-size: 1.35rem;
 	letter-spacing: .15rem;
-	margin-top: 37rem; /* header height */
 	padding: 0 5%;
 }
 nav.fixed {
@@ -220,6 +219,9 @@ nav.fixed {
 	margin-top: 0;
 	z-index: 99;
 }
+	header + nav {
+		margin-top: 37rem; /* header height */
+	}
 
 #nav-input, label[for="nav-input"] {
 	display: none;

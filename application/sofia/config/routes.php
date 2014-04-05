@@ -40,6 +40,7 @@
 
 $route['default_controller'] = "sofia";
 $route['404_override'] = '';
+$route['works/(:any)'] = 'works/index/$1'; // Allow params on index method for works controller
 
 
 /* End of file routes.php */
