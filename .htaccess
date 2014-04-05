@@ -1,26 +1,10 @@
-#   Empêche la visualisation de l'arborescence, n'a rien à voir avec le masquage du « index.php ».
-Options -Indexes
-Options +FollowSymLinks
-
-
-
-
-### CI rewrite /index.php/
-
-# Active le module de réécriture d'URL.
-RewriteEngine on
-
-RewriteBase /~fabienmathis/git/julia/
-
-# Do not enable rewriting for files or directories that exist
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-# For requests that are not actual files or directories,
-# Rewrite to index.php/URL
-RewriteRule ^(.*)$ index.php/$1 [PT,L]
-
-### END CI rewrite /index.php/
+### SECURISE .HTACCESS
+<Files ~ “^.*\.([Hh][Tt][Aa])”>
+	order allow,deny
+	deny from all
+	satisfy all
+</Files>
+### END SECURISE .HTACCESS
 
 
 
@@ -45,3 +29,31 @@ RewriteRule ^(.*)$ index.php/$1 [PT,L]
 </filesMatch>
 
 ### END SET CACHE
+
+
+
+
+### CI rewrite /index.php/
+
+# Active le module de réécriture d'URL.
+RewriteEngine on
+
+RewriteBase /~fabienmathis/git/julia/
+
+# Do not enable rewriting for files or directories that exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# For requests that are not actual files or directories,
+# Rewrite to index.php/URL
+RewriteRule ^(.*)$ index.php/$1 [PT,L]
+
+### END CI rewrite /index.php/
+
+
+
+
+#   Empêche la visualisation de l'arborescence, n'a rien à voir avec le masquage du « index.php ».
+Options -Indexes
+Options +FollowSymLinks
+
