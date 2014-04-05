@@ -15,15 +15,16 @@ class Sofia extends MY_Controller {
 		// Define page title
 		$this->layout->set_second_part_title('Développeur PHP - web à Toulouse');
 
-		//! ADD JS
-		$this->layout->add_js('nav.fixed');
-		//$this->layout->add_js('smooth-scroll');
-		//! END ADD JS
 
 		// Get work resume
 		$this->load->model('m_works');
 		$works = $this->m_works->getLastWorksResume(3);
 		$data['works'] = $works;
+
+		//! ADD JS
+		//$this->layout->add_js('nav.fixed');
+		//$this->layout->add_js('smooth-scroll');
+		//! END ADD JS
 
 		//! SET VIEWS
 		$this->layout->views('v_header');

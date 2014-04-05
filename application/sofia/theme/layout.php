@@ -28,8 +28,9 @@
 		<?php echo $output; ?>
 		
 		<!-- JAVASCRIPT -->
+		<script src="<?php echo js_url('nav.fixed'); ?>"></script>
 		<?php foreach($js as $url): ?>
-			<script type="text/javascript" src="<?php echo $url; ?>"></script>
+			<script src="<?php echo $url; ?>"></script>
 		<?php endforeach; ?>
 
 	</body>
