@@ -46,7 +46,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 # For requests that are not actual files or directories,
 # Rewrite to index.php/URL
-RewriteRule ^(.*)$ index.php/$1 [PT,L]
+RewriteRule ^(.*)$ index.php?/$1 [PT,L]
 
 ### END CI rewrite /index.php/
 

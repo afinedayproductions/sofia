@@ -10,13 +10,13 @@ window.addEventListener('scroll', function() {
 
 	if(scroll > navOffset) {
 		header.style.position = 'relative';
-		nav.className = 'fixed';
+		nav.classList.add('fixed');
 		spanNavFixed.style.display = 'block';
 		spanNavFixed.style.height = navHeight+'px';
 		nav.parentNode.insertBefore(spanNavFixed, nav.nextSibling);
 	}
 	else {
-		nav.className = '';
+		nav.classList.remove('fixed');
 		header.style.position = 'fixed';
 		spanNavFixed.style.height = '0px';
 	}

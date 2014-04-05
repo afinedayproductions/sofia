@@ -8,19 +8,21 @@ class Works extends MY_Controller {
 	}
 
 
-
 	//! Display work detail
 	public function index($work_id = false) {
 
+		// No params == 404
 		if(!$work_id)
 			show_404();
-
 
 		// LOAD works model
 		$this->load->model('m_works');
 
 		// Get work's data
 		$work = $this->m_works->getWork($work_id);
+
+		if(empty($work))
+			show_404();
 
 		$data['work'] = $work;
 
@@ -36,11 +38,15 @@ class Works extends MY_Controller {
 
 
 	// Display full historic of works
-	public function works() {
+	public function full() {
 
-		var_dump('works()');
+		// page title
+		$this->layout->set_second_part_title('Travaux');
 
-	} // END works()
+		$this->layout->views('v_nav');
+		$this->layout->view('v_footer');
+
+	} // END full()
 
 } // END class Sofia
 
