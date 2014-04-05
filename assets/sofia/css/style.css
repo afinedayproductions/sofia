@@ -474,7 +474,8 @@ progress[value]::-webkit-progress-value {
 	background-size: cover;
 	border: 1px solid #ddd;
 	cursor: pointer; /* fix little eye catcher blink due to transition <a> */
-	display: inline-block;
+	display: block;
+	float: left;
 	height: 333px;
 	margin-right: 20px;
 	overflow: hidden;
@@ -486,31 +487,14 @@ progress[value]::-webkit-progress-value {
 	transition: all .3s;
 }
 
-@media(max-width: 1080px) and (min-width: 741px) {
-	.work-resume {
-		height: 222px;
-			max-width: 222px;
-	}
-
-	.work-resume h2 {
-		font-size: 1.2rem;
-	}
-} /* end @media max-width: 1080px && min-width: 741px */
-
-@media(max-width: 740px) {
-	.work-resume {
-		display: block;
-		height: 300px;
-		margin: 0 auto 2rem;
-		width: 300px;
-	}
-	.work-resume-group .work-resume:last-of-type {
-		margin: 0 auto;
-	}
-
-	.work-resume h2 {
-		font-size: 1.2rem;
-	}
+.work-resume:nth-of-type(3n) {
+	margin: 0 auto;
+}
+.work-resume:nth-of-type(3n+1) {
+	clear: left;
+}
+.work-resume:nth-of-type(n+4) {
+	margin-top: 20px;
 }
 
 .work-resume > a {
@@ -548,8 +532,41 @@ progress[value]::-webkit-progress-value {
 }
 
 .work-resume-group {
+	margin: auto;
 	text-align: center;
-		max-width: 1280px;
+	width: 1040px;
+}
+
+@media(max-width: 1080px) and (min-width: 741px) {
+	.work-resume {
+		height: 222px;
+			max-width: 222px;
+	}
+
+	.work-resume h2 {
+		font-size: 1.2rem;
+	}
+
+	.work-resume-group {
+		width: 710px;
+	}
+} /* end @media max-width: 1080px && min-width: 741px */
+
+@media(max-width: 740px) {
+	.work-resume {
+		clear: both;
+		height: 300px;
+		margin: 0 auto 2rem;
+		width: 300px;
+	}
+
+	.work-resume h2 {
+		font-size: 1.2rem;
+	}
+
+	.work-resume-group {
+		width: 300px;
+	}
 }
 
 /* END .WORK-RESUME */

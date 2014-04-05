@@ -2,7 +2,7 @@
 
 	<h2>Work</h2>
 
-	<div class="work-resume-group">
+	<div class="work-resume-group clearfix">
 
 		<div class="work-resume" style="background-image: url('<?php echo img_url('works/'.$work->images); ?>')">
 				

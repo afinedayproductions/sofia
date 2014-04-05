@@ -6,6 +6,27 @@ class M_works extends MY_Model {
 	protected $table_resume = 'afdp_works_resume';
 
 
+
+
+	//! Get the last resume entries
+	public function getLastWorksResume($limit) {
+
+		$this->db->select('*');
+		$this->db->from($this->table_resume);
+		$this->db->order_by('ID', 'DESC');
+		$this->db->limit($limit);
+
+		// Do the request
+		$query = $this->db->get();
+
+		// Return an array with each result
+		return $query->result();
+
+	} // END getLastWorks()
+
+
+
+
 	//! Get work detail
 	public function getWork($work_id) {
 
@@ -24,21 +45,20 @@ class M_works extends MY_Model {
 
 
 
-	//! Get the last resume entries
-	public function getLastWorks($limit) {
+	//! Get every work
+	public function getWorksResume() {
 
 		$this->db->select('*');
 		$this->db->from($this->table_resume);
-		$this->db->order_by('ID', 'DESC');
-		$this->db->limit($limit);
 
 		// Do the request
 		$query = $this->db->get();
 
-		// Return an object with each result
+		// Return an array with each work
 		return $query->result();
 
-	} // END getLastWorks()
+	} // END getWorks()
+
 
 } // END M_works
 

@@ -30,23 +30,30 @@ class Works extends MY_Controller {
 		// page title
 		$this->layout->set_second_part_title($work->title);
 		$this->layout->views('v_nav');
-		$this->layout->views('v_work', $data);
+		$this->layout->views('works/v_work', $data);
 		$this->layout->view('v_footer');
 		//! END SET VIEWS
 
 	} // END index()
 
 
-	// Display full historic of works
-	public function full() {
+	// Display every work
+	public function all() {
 
 		// page title
-		$this->layout->set_second_part_title('Travaux');
+		$this->layout->set_second_part_title('Travaux: PHP, JS, HTML5, CSS3 et plus');
+
+		// Get all works
+		$this->load->model('m_works');
+		$works = $this->m_works->getWorksResume();
+
+		$data['works'] = $works;
 
 		$this->layout->views('v_nav');
+		$this->layout->views('works/v_works', $data);
 		$this->layout->view('v_footer');
 
-	} // END full()
+	} // END all()
 
 } // END class Sofia
 

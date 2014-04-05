@@ -22,9 +22,7 @@ class Sofia extends MY_Controller {
 
 		// Get work resume
 		$this->load->model('m_works');
-
-		$works = $this->m_works->getLastWorks(3);
-
+		$works = $this->m_works->getLastWorksResume(3);
 		$data['works'] = $works;
 
 		//! SET VIEWS

@@ -43,7 +43,7 @@ $route['404_override'] = '';
 
 //! ROUTE IN WORKS CONTROLLER
 $route['works/(:any)'] = 'works/index/$1'; // Allow params on index method for works controller
-$route['works/full'] = 'works/full/'; // Fix for each method in works controller
+$route['works/all'] = 'works/all/'; // Fix for each method in works controller
 //! END ROUTE IN WORKS CONTROLLER
 
 

@@ -3,7 +3,7 @@
 	<h2>Projets que j'ai réalisés</h2>
 	<h3>Seul ou en équipe</h3>
 
-	<div class="work-resume-group">
+	<div class="work-resume-group clearfix">
 
 		<?php
 			foreach ($works as $key => $work) {
