@@ -94,7 +94,7 @@ class Layout
 */
     public function add_css($name)
     {
-        if(is_string($name) AND !empty($name) AND file_exists('./assets/css/' . $name . '.css'))
+        if(is_string($name) AND !empty($name) AND file_exists('./assets/sofia/css/' . $name . '.css'))
         {
             $this->var['css'][] = css_url($name);
             return true;
@@ -104,7 +104,7 @@ class Layout
      
     public function add_js($name)
     {
-        if(is_string($name) AND !empty($name) AND file_exists('./assets/js/' . $name . '.js'))
+        if(is_string($name) AND !empty($name) AND file_exists('./assets/sofia/js/' . $name . '.js'))
         {
             $this->var['js'][] = js_url($name);
             return true;

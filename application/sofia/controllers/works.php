@@ -31,6 +31,8 @@ class Works extends MY_Controller {
 		$work->date_fin = $this->afdp_format->setDateMonthYear($work->date_fin);
 		// We set correct URL
 		$work->url = $this->afdp_format->setURL($work->url);
+		// We set work->images as en array
+		$work->images = $this->afdp_format->setImagesArray($work->ID, $work->images);
 
 		// Si les mois sont les mêmes (projet d'un mois)
 		if($work->date_debut == $work->date_fin)
@@ -42,6 +44,9 @@ class Works extends MY_Controller {
 
 		$data['work'] = $work;
 
+		//! ADD JS
+		$this->layout->add_js('sliders');
+		//! END ADD JS
 		//! SET VIEWS
 		// page title
 		$this->layout->set_second_part_title($work->title);

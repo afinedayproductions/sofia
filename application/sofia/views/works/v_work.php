@@ -1,12 +1,42 @@
 <div id="work">
 
-	<?php var_dump($work); ?>
-
 	<div class="work">
 			
 		<div class="work-poster">
 			
+			<ul>
 
+				<?php for($i = 0; $i < count($work->images); $i++) { ?>
+
+				<li><img src="<?php echo img_url('works/'.$work->images[$i]); ?>"></li>
+
+				<?php } // end for count($work->images) ?>
+
+			</ul>
+
+			<div class="work-poster-handler clearfix">
+
+				<?php 
+					for($i = 0; $i < count($work->images); $i++) {
+						if($i === 0) {
+				?>
+
+				<div class="selected" data-index="<?php echo $i; ?>"></div>
+
+				<?php 
+						} // end if $i === 0
+						else { 
+				?>
+
+				<div data-index="<?php echo $i; ?>"></div>
+
+				<?php
+						} // end if else $i === 0
+					} // end for count($work->images) 
+				?>
+
+			</div>
+			<!-- end .work-poster-handler -->
 
 		</div>
 		<!-- end .work-poster -->

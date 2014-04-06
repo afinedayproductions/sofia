@@ -465,30 +465,8 @@ progress[value]::-webkit-progress-value {
 }
 
 .work {
-	margin: 2rem auto 0;
+	margin: 0 auto;
 	width: 85%;
-}
-
-.work > h1 {
-	color: #fff;
-	font-family: 'Baron Neue', 'Arial', sans-serif;
-	font-size: 2rem;
-	margin: auto;
-	text-align: left;
-	text-transform: lowercase;
-}
-
-.work > h1 span {
-	display: block;
-	padding: .33rem 2rem;
-}
-.work > h1 span:first-of-type {
-	background: #19204c;
-}
-.work > h1 span:last-of-type {
-	color: #999;
-	font-size: 1rem;
-	letter-spacing: 0;
 }
 
 .work-infos {
@@ -559,9 +537,88 @@ progress[value]::-webkit-progress-value {
 	padding: 1.5rem 0 1rem;
 }
 
+/* #work slider */
 .work-poster {
-	border: 1px solid red;
-		min-height: 5rem;
+	position: relative;
+
+	height: 450px;
+	margin: auto;
+	overflow: hidden;
+	width: 800px;
+}
+.work-poster > ul {
+	position: relative;
+	left: 0;
+
+	list-style: none;
+
+	-ms-transition: left .5s;
+	-moz-transition: left .5s;
+	-o-transition: left .5s;
+	-webkit-transition: left .5s;
+	transition: left .5s;
+}
+.work-poster > ul > li {
+	float: left;
+	height: 450px;
+	width: 800px;
+}
+
+.work-poster-handler {
+	position: absolute;
+	top: auto; bottom: 0; left: auto; right: 0;
+
+	background: rgba(0,0,0,.5);
+	padding: .33rem .67rem;
+}
+
+.work-poster-handler > div {
+	background: none;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	float: left;
+	height: 1rem;
+	margin-left: .5rem;
+	width: 1rem;
+
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.work-poster-handler > div:first-of-type {
+	margin-left: 0;
+}
+.work-poster-handler > div.selected {
+	cursor: default;
+}
+.work-poster-handler > div.selected, .work-poster-handler > div:hover {
+	border: 1px solid #ddd;
+	background: #19204c;
+}
+
+/* end #work slider */
+
+.work-poster + h1 {
+	color: #fff;
+	font-family: 'Baron Neue', 'Arial', sans-serif;
+	font-size: 2rem;
+	margin: auto;
+	text-align: left;
+	text-transform: lowercase;
+	width: 800px; /* fit to .work-poster width */
+}
+
+.work-poster + h1 span {
+	display: block;
+	padding: .33rem 2rem;
+}
+.work-poster + h1 span:first-of-type {
+	background: #19204c;
+}
+.work-poster + h1 span:last-of-type {
+	color: #999;
+	font-size: 1rem;
+	letter-spacing: 0;
 }
 
 /* END #WORK */
@@ -616,7 +673,7 @@ progress[value]::-webkit-progress-value {
 	/* mandatory for overlay transition */
 	-moz-transtion: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
 	-webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-  	transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+	transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
 }
 .work-resume:hover > a {
 	left: 0;

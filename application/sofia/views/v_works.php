@@ -1,6 +1,6 @@
 <div id="works">
 
-	<h2>Projets que j'ai réalisés</h2>
+	<h2>Travaux que j'ai réalisés</h2>
 	<h3>Seul ou en équipe</h3>
 
 	<div class="work-resume-group clearfix">
@@ -9,7 +9,7 @@
 			foreach ($works as $key => $work) {
 		?>
 
-			<div class="work-resume" style="background-image: url('<?php echo img_url('works/'.$work->background); ?>')">
+			<div class="work-resume" style="background-image: url('<?php echo img_url('works/' . $work->work_ID . '/' .$work->background); ?>')">
 
 				<a href="<?php echo base_url(); ?>works/<?php echo $work->work_ID; ?>">
 					<h2><span><?php echo $work->title; ?></span></h2>

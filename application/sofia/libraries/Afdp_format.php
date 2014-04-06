@@ -73,6 +73,22 @@ class Afdp_format {
 	} // END setDateMonthYear()
 
 
+
+	// We set work->images as an array
+	public function setImagesArray($work_id, $images) {
+
+		$images = explode(', ', $images);
+
+		for($i = 0; $i < count($images); $i++) {
+			$images[$i] = $work_id . '/' . $images[$i];
+		}
+
+		return $images;
+
+	} // END setImagesArray()
+
+
+
 	// We set base_url for internal link but we don't touch to external link
 	public function setURL($url) {
 
