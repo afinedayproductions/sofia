@@ -260,14 +260,18 @@ nav li a {
 	-webkit-transition: color .3s;
 	transition: color .3s;
 }
+nav li a:hover {
+	color: #be9d58;
+}
 
+/* {NAV_ITEM} snippet */
 nav li a:before, nav li a:after {
 	position: absolute;
-	top: -.75rem; bottom: 0; left: auto; right: auto;
+	top: 0; bottom: 0;
 
 	color: #be9d58;
-	line-height: 3.5;
 	opacity: 0;
+	padding: .5rem 0;
 
 	-moz-transition: all .3s;
 	-webkit-transition: all .3s;
@@ -275,11 +279,11 @@ nav li a:before, nav li a:after {
 }
 nav li a:before {
 	content: "{";
-	left: -3rem;
+	left: 3rem;
 }
 nav li a:after {
 	content: "}";
-	right: -3rem;
+	right: 3rem;
 }
 nav li a:hover:before {
 	left: 0;
@@ -291,10 +295,7 @@ nav li a:hover:after {
 
 	opacity: 1;
 }
-
-nav li a:hover {
-	color: #be9d58;
-}
+/* end {NAV_ITEM} snippet */
 
 nav ul {
 	float: right;
