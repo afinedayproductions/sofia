@@ -7,7 +7,8 @@
 		<title><?php echo $second_part_title . $title; ?></title>
 
 		<!-- META --> 
-		<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $charset; ?>" >
+		<meta charset="<?php echo $charset; ?>" >
+		<meta name="viewport" content="width=device-width">
 
 		<!-- FAVICON -->
 		<link rel="icon" type="image/png" href="<?php echo img_url('panda/afineday-64x.png'); ?>">
