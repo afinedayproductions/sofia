@@ -41,7 +41,8 @@ Work_poster.prototype = {
 
 
 window.addEventListener('resize', function() {
-	sliders[0].resize();
+	for(var i = 0; i < sliders.length; i++)
+		sliders[i].resize();
 });
 
 
@@ -50,12 +51,15 @@ window.addEventListener('resize', function() {
 
 // Handle slider init + slider HTML handler
 var sliders = [];
-[].forEach.call(document.querySelectorAll('.work-poster'), function(el) {
+[].forEach.call(document.querySelectorAll('.work-poster'), function(slider) {
+
 	// Init each slider
-	sliders.push(new Work_poster(el));
+	var sliderObject = new Work_poster(slider);
+	// Add it to the sliders array
+	sliders.push(sliderObject);
 
 	// Get the attached handler
-	var handler = el.querySelector('.work-poster-handler');
+	var handler = slider.querySelector('.work-poster-handler');
 	// For each click on a btn in the HTML handler
 	[].forEach.call(handler.querySelectorAll('div'), function(item) {
 
@@ -69,13 +73,8 @@ var sliders = [];
 			});
 			item.className = 'selected';
 			// Slide it
-			handlerGoTo(item.index);
+			sliderObject.goTo(item.index);
 		}, false);
 
 	});
 });
-
-function handlerGoTo(index) {
-	// Only one slider here. Do not handle multiple sliders in one page
-	sliders[0].goTo(index);
-}
