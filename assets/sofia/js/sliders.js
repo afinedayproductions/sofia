@@ -33,7 +33,9 @@ Work_poster.prototype = {
 
 		for(var i = 0; i < this.li.length; i++) {
 			this.li[i].querySelector('img').style.width = this.sliderWidth + 'px';
-			this.li[i].style.width = this.sliderWidth + 'px';
+			this.sliderHeight = this.li[i].querySelector('img').offsetHeight;
+			this.li[i].style.height = this.sliderHeight + 'px !important';
+			console.log(this.sliderHeight + 'px !important');
 		}
 	}
 };
