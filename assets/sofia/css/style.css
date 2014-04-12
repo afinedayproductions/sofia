@@ -75,7 +75,7 @@ a.a-block {
 	-webkit-transition: color .3s;
 	transition: color .3s;
 }
-a.a-block:hover {
+a.a-block:hover, a.a-block:active {
 	color: #f4f4f4;
 }
 div.a-block {
@@ -260,7 +260,7 @@ nav li a {
 	-webkit-transition: color .3s;
 	transition: color .3s;
 }
-nav li a:hover {
+nav li a:hover, nav li a:active {
 	color: #be9d58;
 }
 
@@ -285,12 +285,12 @@ nav li a:after {
 	content: "}";
 	right: 3rem;
 }
-nav li a:hover:before {
+nav li a:hover:before, nav li a:active:before {
 	left: 0;
 
 	opacity: 1;
 }
-nav li a:hover:after {
+nav li a:hover:after, nav li a:active:after {
 	right: 0;
 
 	opacity: 1;
@@ -342,10 +342,15 @@ nav ul {
 		transition: all .3s;
 	}
 
-	nav li a:hover {
+	nav li a:hover, nav li a:active {
 		background: #fafafa;
 	}
-}
+
+	/* hide {nav item} snippet */
+	nav li a:before, nav li a:after {
+		content: "";
+	}
+} /* end media max width 55rem */
 
 /* END NAV */
 
@@ -490,7 +495,7 @@ progress[value]::-webkit-progress-value {
 	transition: all .3s;
 }
 
-.work-infos > a:hover {
+.work-infos > a:hover, .work-infos > a:active {
 	background: #19204c;
 	color: #fff;
 }
@@ -541,10 +546,9 @@ progress[value]::-webkit-progress-value {
 .work-poster {
 	position: relative;
 
-	height: 450px;
 	margin: auto;
 	overflow: hidden;
-	width: 800px;
+		max-width: 800px;
 }
 .work-poster > ul {
 	position: relative;
@@ -560,8 +564,9 @@ progress[value]::-webkit-progress-value {
 }
 .work-poster > ul > li {
 	float: left;
-	height: 450px;
-	width: 800px;
+	margin: 0;
+	padding: 0;
+		max-width: 800px;
 }
 
 .work-poster-handler {
@@ -591,7 +596,7 @@ progress[value]::-webkit-progress-value {
 .work-poster-handler > div.selected {
 	cursor: default;
 }
-.work-poster-handler > div.selected, .work-poster-handler > div:hover {
+.work-poster-handler > div.selected, .work-poster-handler > div:hover, .work-poster-handler > div:active {
 	border: 1px solid #ddd;
 	background: #19204c;
 }
@@ -605,7 +610,7 @@ progress[value]::-webkit-progress-value {
 	margin: auto;
 	text-align: left;
 	text-transform: lowercase;
-	width: 800px; /* fit to .work-poster width */
+		max-width: 800px; /* fit to .work-poster width */
 }
 
 .work-poster + h1 span {
@@ -675,7 +680,7 @@ progress[value]::-webkit-progress-value {
 	-webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
 	transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
 }
-.work-resume:hover > a {
+.work-resume:hover > a, .work-resume:active > a {
 	left: 0;
 }
 

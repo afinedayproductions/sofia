@@ -4,7 +4,9 @@ Work_poster.prototype = {
 		this.ul = slider.children[0];
 		this.li = this.ul.children;
 
-		this.ul.style.width = (this.li[0].offsetWidth * this.li.length) + 'px';
+		this.resize();
+
+		//this.ul.style.width = (this.li[0].offsetWidth * this.li.length) + 'px';
 		this.currentIndex = 0;
 	},
 
@@ -23,8 +25,27 @@ Work_poster.prototype = {
 
 	goToNext: function() {
 		this.goTo(this.currentIndex + 1);
+	},
+
+	resize: function() {
+		this.sliderWidth = document.querySelectorAll('.work-poster')[0].offsetWidth;
+		this.ul.style.width = this.sliderWidth * this.li.length + 'px';
+
+		for(var i = 0; i < this.li.length; i++) {
+			this.li[i].querySelector('img').style.width = this.sliderWidth + 'px';
+			this.li[i].style.width = this.sliderWidth + 'px';
+		}
 	}
 };
+
+
+
+window.addEventListener('resize', function() {
+	sliders[0].resize();
+});
+
+
+
 
 
 // Handle slider init + slider HTML handler
