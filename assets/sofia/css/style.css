@@ -62,8 +62,8 @@ a {
 }
 
 a.a-block {
-	background: #19204c;
-	color: #be9d58;
+	border: 1px solid #fff;
+	color: #fff;
 	display: inline-block;
 	font-size: 1.35rem;
 	letter-spacing: .15rem;
@@ -71,12 +71,14 @@ a.a-block {
 	padding: 1.5rem;
 	text-transform: uppercase;
 
-	-moz-transition: color .3s;
-	-webkit-transition: color .3s;
-	transition: color .3s;
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+	transition: all .2s;
 }
 a.a-block:hover, a.a-block:active {
-	color: #f4f4f4;
+	border: 1px solid #19204c;
+	background: #19204c;
+	color: #fff;
 }
 div.a-block {
 	text-align: center;
@@ -104,10 +106,10 @@ body > div:nth-of-type(2n) {
 }
 
 #works, #work {
-	padding: 3rem 0;
+	padding: 9rem 0;
 }
 #profil, #savoir-faire {
-	padding: 3rem 5%;
+	padding: 9rem 5%;
 }
 
 div > h2 {
@@ -160,6 +162,7 @@ header {
 	top: 0; right: 0; left: 0;
 
 	background: #19204c;
+	background-size: cover;
 	border-top: .33rem solid #be9d58;
 	font-family: 'Fontin', 'Helvetica', 'Arial', sans-serif;
 	height: 37rem; /* nav margin-top */
@@ -359,36 +362,25 @@ nav ul {
 /* CONTENT */
 
 #profil {
-	background-attachment:fixed;
-	background-position:center;
-	background-repeat:no-repeat;
+	background: url('../img/toulouse-map-67.png') no-repeat center fixed;
 	background-size: cover;
+
+	color: #fff;
+	padding-right: -moz-calc(5% + 300px);
+	padding-right: -webkit-calc(5% + 300px);
+	padding-right: calc(5% + 300px);
+	text-align: justify;
 }
-@media(min-width: 1681px) {
-	#profil {
-		background-image: url('img/afdp_capitole.jpg');
-	}
+
+
+#profil h2 {
+	color: #fff;
 }
-@media(max-width: 1680px) {
-	#profil {
-		background-image: url('img/afdp_capitole-1680x.jpg');
-	}
+#profil h3 {
+	color: #eee;
 }
-@media(max-width: 1280px) {
-	#profil {
-		background-image: url('img/afdp_capitole-1280x.jpg');
-	}
-}
-@media(max-width: 800px) {
-	#profil {
-		background-image: url('img/afdp_capitole-800x.jpg');
-	}
-}
-@media(max-width: 480px) {
-	#profil {
-		background-image: url('img/afdp_capitole-480x.jpg');
-	}
-}
+
+
 
 
 #savoir-faire > div {
