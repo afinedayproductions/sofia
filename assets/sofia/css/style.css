@@ -42,6 +42,17 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Fira Mono';
+	src: url('fonts/fira_mono/firamonoot-regular-webfont.eot');
+	src: url('fonts/fira_mono/firamonoot-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/fira_mono/firamonoot-regular-webfont.woff') format('woff'),
+		 url('fonts/fira_mono/firamonoot-regular-webfont.ttf') format('truetype'),
+		 url('fonts/fira_mono/firamonoot-regular-webfont.svg#fira_mono_otregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* END FONT FACE */
 
 
@@ -108,7 +119,7 @@ body > div:nth-of-type(2n) {
 #works, #work {
 	padding: 9rem 0;
 }
-#profil, #savoir-faire {
+#profil-index, #savoir-faire {
 	padding: 9rem 5%;
 }
 
@@ -131,6 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html {
+	font-size: 17px;
 	overflow-y: scroll;
 }
 
@@ -361,7 +373,7 @@ nav ul {
 
 /* CONTENT */
 
-#profil {
+#profil-index {
 	background: url('../img/toulouse-map-67.png') no-repeat center fixed;
 	background-size: cover;
 
@@ -373,10 +385,10 @@ nav ul {
 }
 
 
-#profil h2 {
+#profil-index h2 {
 	color: #fff;
 }
-#profil h3 {
+#profil-index h3 {
 	color: #eee;
 }
 
@@ -452,6 +464,51 @@ progress[value]::-webkit-progress-value {
 }
 
 /* END PROGRESS BAR */
+
+
+
+/* #PROFIL */
+
+#profil {
+	background: #1a1a1a;
+	border: 0;
+	color: #fff;
+	font-family: 'Fira Mono', serif;
+	margin-top: 3.5rem; /* nav height */
+	padding: 2rem 7.5%;
+}
+
+#profil > article {
+	margin-top: 1rem;
+}
+#profil > article + .comment {
+	margin-top: 2rem;
+}
+#profil > article > div {
+	margin-left: 2rem;
+}
+
+#profil .class {
+	color: #2ac12d;
+}
+#profil .comment {
+	color: #464032;
+}
+#profil .id, #profil .pseudo-class {
+	color: #a6e22d;
+}
+#profil .int {
+	color: #ae81f7;
+}
+#profil .property {
+	color: #66d9ff;
+	font-style: italic;
+}
+#profil .string {
+	color: #e6d46c;
+}
+
+/* END #PROFIL */
 
 
 

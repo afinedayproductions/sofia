@@ -1,4 +1,4 @@
-<nav class="clearfix">
+<nav class="fixed clearfix">
 
 	<a href="<?php echo base_url(); ?>" id="logo">
 		<img src="<?php echo img_url('panda/afineday-64x.png'); ?>" alt="AFDP" height="64" width="64">

@@ -5,6 +5,7 @@ class Works extends MY_Controller {
 	public function __construct() {
 		parent::__construct();
 		$this->load->library('layout');
+		$this->layout->add_js('nav-fixed');
 	}
 
 

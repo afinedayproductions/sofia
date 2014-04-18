@@ -29,7 +29,7 @@
 		<?php echo $output; ?>
 		
 		<!-- JAVASCRIPT -->
-		<script src="<?php echo js_url('nav.fixed'); ?>"></script>
+
 		<?php foreach($js as $url): ?>
 
 			<script src="<?php echo $url; ?>"></script>

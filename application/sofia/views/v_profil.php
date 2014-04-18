@@ -1,4 +1,4 @@
-<div id="profil">
+<div id="profil-index">
 
 	<h2>Qui suis-je ?</h2>
 	<h3>Et ce que je veux</h3>
@@ -14,4 +14,4 @@
 	</div>
 
 </div>
-<!-- end #profil -->
+<!-- end #profil-index -->

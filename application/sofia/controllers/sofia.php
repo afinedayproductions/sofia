@@ -5,6 +5,7 @@ class Sofia extends MY_Controller {
 	public function __construct() {
 		parent::__construct();
 		$this->load->library('layout');
+		$this->layout->add_js('nav-fixed');
 	}
 
 
@@ -12,23 +13,29 @@ class Sofia extends MY_Controller {
 	//! Main app page
 	public function index() {
 
-		// Define page title
-		$this->layout->set_second_part_title('Développeur PHP - web à Toulouse');
-
-
 		// Get work resume
 		$this->load->model('m_works');
 		$works = $this->m_works->getLastWorksResume(3);
 		$data['works'] = $works;
 
-		//! SET VIEWS
+
+
+		/*** Define view ***/
+
+		// Page title
+		$this->layout->set_second_part_title('Développeur PHP - web à Toulouse');
+
+		// views
 		$this->layout->views('v_header');
 		$this->layout->views('v_nav');
 		$this->layout->views('v_works', $data);
 		$this->layout->views('v_profil');
 		$this->layout->views('v_savoir-faire');
 		$this->layout->view('v_footer');
-		//! END SET VIEWS
+		
+		/*** Define view ***/
+
+
 
 	} // END index()
 
