@@ -1,22 +1,22 @@
 /* FONT FACE */
 
 @font-face {
-	font-family: 'Fontin';
-	src: url('fonts/fontin/fontin-regular.eot');
-	src: url('fonts/fontin/fontin-regular.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/fontin/fontin-regular.woff') format('woff'),
-		 url('fonts/fontin/fontin-regular.ttf') format('truetype'),
-		 url('fonts/fontin/fontin-regular.svg#fontin') format('svg');
+	font-family: 'Lato';
+	src: url('fonts/lato/lato-light.eot');
+	src: url('fonts/lato/lato-light.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/lato/lato-light.woff') format('woff'),
+		 url('fonts/lato/lato-light.ttf') format('truetype'),
+		 url('fonts/lato/lato-light.svg#lato') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Fontin';
-	src: url('fonts/fontin/fontin-bold.eot');
-	src: url('fonts/fontin/fontin-bold.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/fontin/fontin-bold.woff') format('woff'),
-		 url('fonts/fontin/fontin-bold.ttf') format('truetype'),
-		 url('fonts/fontin/fontin-bold.svg#fontin') format('svg');
+	font-family: 'Lato';
+	src: url('fonts/lato/lato-bold.eot');
+	src: url('fonts/lato/lato-bold.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/lato/lato-bold.woff') format('woff'),
+		 url('fonts/lato/lato-bold.ttf') format('truetype'),
+		 url('fonts/lato/lato-bold.svg#lato') format('svg');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -39,17 +39,6 @@
 		 url('fonts/baron_neue/baron_neue_black.ttf') format('truetype'),
 		 url('fonts/baron_neue/baron_neue_black.svg#baron_neueblack') format('svg');
 	font-weight: 900;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Fira Mono';
-	src: url('fonts/fira_mono/firamonoot-regular-webfont.eot');
-	src: url('fonts/fira_mono/firamonoot-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/fira_mono/firamonoot-regular-webfont.woff') format('woff'),
-		 url('fonts/fira_mono/firamonoot-regular-webfont.ttf') format('truetype'),
-		 url('fonts/fira_mono/firamonoot-regular-webfont.svg#fira_mono_otregular') format('svg');
-	font-weight: normal;
 	font-style: normal;
 }
 
@@ -96,7 +85,7 @@ div.a-block {
 }
 
 body {
-	font-family: 'Fontin', 'Helvetica', 'Arial', sans-serif;
+	font-family: 'Lato', 'Arial', sans-serif;
 	font-size: 1.2rem;
 }
 
@@ -127,18 +116,20 @@ div > h2 {
 	color: #333;
 	font-size: 2rem;
 	margin-bottom: 1rem;
-	text-align: center;
 }
 div > h3 {
 	color: #666;
-	text-align: center;
 	font-size: 1.4rem;
 	margin-bottom: 2rem;
+}
+div > h2, div > h3 {
+	font-family: 'Lato', 'Arial', sans-serif;
+	text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	letter-spacing: .2rem;
+	letter-spacing: .05rem;
 }
 
 html {
@@ -176,7 +167,6 @@ header {
 	background: #19204c;
 	background-size: cover;
 	border-top: .33rem solid #be9d58;
-	font-family: 'Fontin', 'Helvetica', 'Arial', sans-serif;
 	height: 37rem; /* nav margin-top */
 	z-index: -1;
 }
@@ -188,7 +178,7 @@ header h1, header h2 {
 }
 
 header h1 {
-	font-family: 'Baron Neue';
+	font-family: 'Baron Neue', 'Times New Roman', 'Times', serif;
 	font-size: 1rem;
 	letter-spacing: 1.3rem;
 	line-height: 1;
@@ -236,7 +226,7 @@ nav {
 	border-bottom: 1px solid #ddd;
 	color: #444;
 	font-size: 1.35rem;
-	letter-spacing: .15rem;
+	letter-spacing: .05rem;
 	padding: .15rem 5%;
 }
 nav.fixed {
@@ -266,10 +256,11 @@ nav li a {
 	position: relative;
 
 	display: block;
-	font-family: 'Baron Neue', 'Fontin', sans-serif;
+	font-family: 'Lato', 'Arial', sans-serif;
 	font-size: 1.15rem;
+	font-weight: bold;
 	padding: .5rem;
-	text-transform: lowercase;
+	text-transform: uppercase;
 
 	-moz-transition: color .3s;
 	-webkit-transition: color .3s;
@@ -282,9 +273,10 @@ nav li a:hover, nav li a:active {
 /* {NAV_ITEM} snippet */
 nav li a:before, nav li a:after {
 	position: absolute;
-	top: 0; bottom: 0;
+	top: -.05rem; bottom: 0;
 
 	color: #be9d58;
+	font-family: 'Baron Neue';
 	opacity: 0;
 	padding: .5rem 0;
 
@@ -470,42 +462,30 @@ progress[value]::-webkit-progress-value {
 /* #PROFIL */
 
 #profil {
-	background: #1a1a1a;
-	border: 0;
-	color: #fff;
-	font-family: 'Fira Mono', serif;
 	margin-top: 3.5rem; /* nav height */
 	padding: 2rem 7.5%;
 }
 
-#profil > article {
-	margin-top: 1rem;
-}
-#profil > article + .comment {
-	margin-top: 2rem;
-}
-#profil > article > div {
-	margin-left: 2rem;
+.historique {
+	cursor: default;
+	float: left;
+	padding: 1rem;
+	text-align: center;
+	width: 33.33%;
 }
 
-#profil .class {
-	color: #2ac12d;
+.historique span {
+	color: #888;
+	display: inline-block;
+	font-size: 1rem;
+	margin-left: .33rem;
+
+	-moz-transition: color .2s;
+	-webkit-transition: color .2s;
+	transition: color .2s;
 }
-#profil .comment {
-	color: #464032;
-}
-#profil .id, #profil .pseudo-class {
-	color: #a6e22d;
-}
-#profil .int {
-	color: #ae81f7;
-}
-#profil .property {
-	color: #66d9ff;
-	font-style: italic;
-}
-#profil .string {
-	color: #e6d46c;
+.historique > div:hover span {
+	color: #be9d58;
 }
 
 /* END #PROFIL */
@@ -563,7 +543,7 @@ progress[value]::-webkit-progress-value {
 	display: block;
 	font-size: 1rem;
 	font-weight: bold;
-	font-family: 'Baron Neue', 'Arial', sans-serif;
+	font-family: 'Baron Neue', 'Lato', 'Arial', sans-serif;
 	text-transform: lowercase;
 }
 .work-infos h2 {
@@ -652,11 +632,11 @@ progress[value]::-webkit-progress-value {
 
 .work-poster + h1 {
 	color: #fff;
-	font-family: 'Baron Neue', 'Arial', sans-serif;
+	font-family: 'Lato', 'Arial', sans-serif;
 	font-size: 2rem;
 	margin: auto;
 	text-align: left;
-	text-transform: lowercase;
+	text-transform: uppercase;
 		max-width: 800px; /* fit to .work-poster width */
 }
 
@@ -716,7 +696,7 @@ progress[value]::-webkit-progress-value {
 	background: #1a1a1a;
 	background: rgba(0,0,0, .67);
 	display: table;
-	font-family: 'Baron Neue', 'Fontin', 'Arial', sans-serif;
+	font-family: 'Baron Neue', 'Lato', 'Arial', sans-serif;
 	font-weight: bold;
 	height: 100%;
 	text-transform: lowercase;
@@ -740,7 +720,11 @@ progress[value]::-webkit-progress-value {
 
 .work-resume span {
 	display: block;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-weight: bold;
+	letter-spacing: .05rem;
 	margin: 0 auto;
+	text-transform: uppercase;
 }
 
 .work-resume-group {
