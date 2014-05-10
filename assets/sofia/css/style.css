@@ -106,10 +106,10 @@ body > div:nth-of-type(2n) {
 }
 
 #works, #work {
-	padding: 9rem 0;
+	padding: 6rem 0;
 }
 #profil-index, #savoir-faire {
-	padding: 9rem 5%;
+	padding: 6rem 5%;
 }
 
 div > h2 {
@@ -432,7 +432,7 @@ nav ul {
 	background-color:#19204c;
 	border-radius:1rem;
 	display:block;
-	text-indent:-9999rem;
+	text-indent:-9996rem;
 }
 progress[value]{
 	-webkit-appearance:none;
@@ -459,22 +459,18 @@ progress[value]::-webkit-progress-value {
 
 
 
-/* #PROFIL */
+/* #PROFIL-INDEX */
 
-#profil {
-	margin-top: 3.5rem; /* nav height */
-	padding: 2rem 7.5%;
-}
-
-.historique {
+.langages {
 	cursor: default;
 	float: left;
 	padding: 1rem;
-	text-align: center;
+	padding-left: 0;
+	text-align: left;
 	width: 33.33%;
 }
 
-.historique span {
+.langages span {
 	color: #888;
 	display: inline-block;
 	font-size: 1rem;
@@ -484,8 +480,12 @@ progress[value]::-webkit-progress-value {
 	-webkit-transition: color .2s;
 	transition: color .2s;
 }
-.historique > div:hover span {
+.langages > div:hover span {
 	color: #be9d58;
+}
+
+.un-petit-mot {
+	margin-top: 2rem;
 }
 
 /* END #PROFIL */
