@@ -11,7 +11,7 @@
 	<ul>
 		<li><?php echo anchor('', 'Home'); ?></li><!--
 		--><li><?php echo anchor('works/all/', 'Travaux'); ?></li><!--
-		--><li><?php echo anchor('sofia/contact/', 'Contact'); ?></li>
+		--><li><?php echo anchor('contact', 'Contact'); ?></li>
 	</ul>
 
 </nav>

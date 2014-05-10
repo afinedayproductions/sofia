@@ -416,6 +416,130 @@ nav ul {
 
 
 
+/* .FORM */
+
+.form {
+	margin: auto;
+	padding: 1rem;
+	max-width: 23em;
+}
+
+.form input[type="submit"] {
+	background: none;
+	border: 1px solid #aaa;
+	color: #aaa;
+	cursor: pointer;
+	display: block;
+	font-size: 1.15rem;
+	font-weight: bold;
+	letter-spacing: .15rem;
+	margin-top: 1rem;
+	padding: .5rem;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+.form input[type="submit"]:hover {
+	background: #19204c;
+	color: #fff;
+}
+
+/* END .FORM */
+
+
+
+/* .INPUT-LABEL */
+
+.input-label {
+	position: relative;
+
+	overflow: hidden;
+}
+.input-label + .input-label {
+	margin-top: 1rem;
+}
+
+/* normal state */
+.input-label input,
+.input-label textarea {
+	border: 1px solid #aaa;
+	border-radius: 2px;
+	display: block;
+	font-size: 1.15rem;
+	height: 3.25rem;
+	padding: 0 .5rem;
+	width: 100%;
+
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.input-label textarea {
+	height: 13rem;
+	padding: .5rem;
+}
+.input-label label {
+	position: absolute;
+	top: auto; right: 0; bottom: 0; left: 0;
+
+	background: #aaa;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 0.85rem;
+	height: 0;
+	padding-left: 1rem;
+	text-transform: uppercase;
+
+	-moz-transition: 
+		background 0.2s,
+		padding 0.2s;
+	-webkit-transition: 
+		background 0.2s,
+		padding 0.2s;
+	transition: 
+		background 0.2s,
+		padding 0.2s;
+}
+/* end normal state */
+
+/* when focused or valid
+	:valid is when input is required & not empty
+*/
+.input-label input:focus, .input-label input:valid,
+.input-label textarea:focus, .input-label textarea:valid {
+	border-color: #be9d58;
+	padding-bottom: 1rem;
+	padding-top: .15rem;
+}
+.input-label textarea:focus, .input-label textarea:valid {
+	padding-top: .5rem;
+}
+
+.input-label input:not(:focus):valid,
+.input-label textarea:not(:focus):valid {
+	border: 1px solid #aaa;
+}
+
+.input-label input:focus + label, .input-label input:valid + label,
+.input-label textarea:focus + label, .input-label textarea:valid + label {
+	background: #be9d58;
+	padding-bottom: 1rem;
+}
+
+.input-label input:not(:focus):valid + label,
+.input-label textarea:not(:focus):valid + label {
+	background: #aaa;
+}
+/* end focused or valid */
+
+/* END .INPUT-LABEL */
+
+
+
 /* PROGRESS BAR */
 
 .progress-bar {

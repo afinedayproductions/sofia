@@ -9,9 +9,9 @@
 	<input type="checkbox" name="nav-input" id="nav-input">
 
 	<ul>
-		<li><a href="<?php echo base_url(); ?>works/all/">Travaux</a></li><!--
-		--><li><a href="<?php echo base_url(); ?>profil/">Profil</a></li><!--
-		--><li><a href="<?php echo base_url(); ?>sofia/contact/">Contact</a></li>
+		<li><?php echo anchor('', 'Home'); ?></li><!--
+		--><li><?php echo anchor('works/all/', 'Travaux'); ?></li><!--
+		--><li><?php echo anchor('contact/', 'Contact'); ?></li>
 	</ul>
 
 </nav>
