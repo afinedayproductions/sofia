@@ -1,5 +1,5 @@
 <footer>
-	<h2>Contact</h2>
+	<h2>Afineday</h2>
 
 	<div id="social">
 		<a href="http://twitter.com/afinedayproduct/">

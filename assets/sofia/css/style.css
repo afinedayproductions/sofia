@@ -365,6 +365,10 @@ nav ul {
 
 /* CONTENT */
 
+.contact-page {
+	padding-bottom: 3rem;
+}
+
 #profil-index {
 	background: url('../img/toulouse-map-67.png') no-repeat center fixed;
 	background-size: cover;
@@ -418,8 +422,16 @@ nav ul {
 
 /* .FORM */
 
+.contact-form-infos {
+	background: #f2f3f5;
+	border-bottom: 1px solid #eee;
+	color: #666;
+	padding: 3rem;
+	text-align: center;
+}
+
 .form {
-	margin: auto;
+	margin: 1rem auto 0;
 	padding: 1rem;
 	max-width: 23em;
 }
